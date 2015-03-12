@@ -16,6 +16,10 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+# Bower intermediate storage
+bower_components
+.bowerrc
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
@@ -26,3 +30,6 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# System
+.DS_Store

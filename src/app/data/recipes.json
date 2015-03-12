@@ -1,0 +1,50 @@
+[
+   {
+      "Recipe": {
+          "RecipeId": "1",
+          "title": "Burger",
+          "imgTag": "1"
+      },
+      "category": "18 min meals"
+  },
+  {
+      "Recipe": {
+          "RecipeId": "2",
+          "title": "French Omlette",
+          "imgTag": "2"
+      },
+      "category": "Breakfasts"
+  },
+  {
+      "Recipe": {
+          "RecipeId": "3",
+          "title": "Pasta with Chicken and Zuchinni",
+          "imgTag": "3"
+      },
+      "category": "Snacks"
+  },
+  {
+      "Recipe": {
+          "RecipeId": "4",
+          "title": "Cookies",
+          "imgTag": "4"
+      },
+      "category": "Sweets"
+  },
+  {
+      "Recipe": {
+          "RecipeId": "5",
+          "title": "Salmon Salad",
+          "imgTag": "5"
+      },
+      "category": "Salads"
+  },
+    {
+      "Recipe": {
+          "RecipeId": "6",
+          "title": "Cupcakes",
+          "imgTag": "6"
+      },
+      "category": "Sweets"
+  }
+]

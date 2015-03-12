@@ -1,0 +1,79 @@
+    <!DOCTYPE HTML>
+    <!--
+        Strongly Typed by HTML5 UP
+        html5up.net | @n33co
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    -->
+    <html>
+        <head>
+            <title>Lena's Cooking</title>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+            <meta name="description" content="" />
+            <meta name="keywords" content="" />
+            <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.dropotron.min.js"></script>
+            <script src="js/skel.min.js"></script>
+            <script src="js/skel-layers.min.js"></script>
+            <script src="js/init.js"></script>
+            <script src="bower_components/angular/angular.js"></script>
+            <script src="bower_components/angular-route/angular-route.js"></script>
+            <script src="js/app.js"></script>
+            <script src="js/controllers.js"></script>
+            <script src="js/services.js"></script>
+            <noscript>
+                <link rel="stylesheet" href="css/skel.css" />
+                <link rel="stylesheet" href="css/style.css" />
+                <link rel="stylesheet" href="css/style-desktop.css" />
+            </noscript>
+            <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+        </head>
+        <body class="homepage" ng-app="LenasRecipes">
+
+            <!-- Header -->
+                <div id="header-wrapper">
+                    <div id="header" class="container">
+
+                        <!-- Logo -->
+                            <h1 id="logo"><a href="index.html">Lena's cooking notes</a></h1>		
+                        <!-- Nav -->
+                            <nav id="nav">
+                                <ul>
+                                    <li><a class="icon fa-home" href="index.html"><span>Recipes</span></a></li>
+                                    <li>
+                                        <a href="" class="icon fa-bar-chart-o"><span>Categories</span></a>
+                                        <ul>
+                                             <li ng-click="selectedCategory = ''"><a href="#">All categories</a></li>
+                                            <li ng-click="selectedCategory = 'Breakfast'"><a href="#">Breakfast</a></li>
+                                            <li ng-click="selectedCategory = 'Snacks'"><a href="#">Snacks</a></li>
+                                            <li ng-click="selectedCategory = 'Sweets'"><a href="#">Sweets</a></li>
+                                            <li ng-click="selectedCategory = '18 min Meals'"><a href="">18 min Meals</a>
+                                                <ul>
+                                                    <li ng-click="selectedCategory = 'Pasta'"><a href="#">Pasta</a></li>
+                                                    <li ng-click="selectedCategory = 'Salads'"><a href="#">Salads</a></li>
+                                                    <li ng-click="selectedCategory = 'Pizza'"><a href="#">Pizza</a></li>
+                                                </ul>
+                                            </li>
+                                            <li ng-click="selectedCategory = 'Long meals'"><a href="#">Long meals</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="icon fa-cog" href="left-sidebar.html"><span>Ingredients</span></a></li>
+                                    <li><a class="icon fa-retweet" href="right-sidebar.html"><span>About</span></a></li>
+                                </ul>
+                            </nav>
+
+                    </div>
+                </div>
+            
+            <ng-view></ng-view>
+
+            <!-- Footer -->
+                <div id="footer-wrapper">
+                    <div id="copyright" class="container">
+                        <ul class="links">
+                            <li>&copy; Lena's Cooking. All rights reserved. 2015</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </body>
+    </html>
