@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "LenaCookingBlog",
   "private": true,
-  "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "version": "0.1.0",
+  "description": "Lena's Cooking Blog",
+  "repository": "https://github.com/JelenaBarinova/CookingBlog",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
