@@ -46,5 +46,29 @@
           "imgTag": "6"
       },
       "category": "Sweets"
+  },
+    {
+      "Recipe": {
+          "RecipeId": "7",
+          "title": "Sushi",
+          "imgTag": "7"
+      },
+      "category": "Long meals"
+  },
+    {
+      "Recipe": {
+          "RecipeId": "8",
+          "title": "Swordfish Steak",
+          "imgTag": "8"
+      },
+      "category": "18 min meals"
+  },
+    {
+      "Recipe": {
+          "RecipeId": "9",
+          "title": "Smoked Duck Breast Sandwich",
+          "imgTag": "9"
+      },
+      "category": "Snacks"
   }
 ]
