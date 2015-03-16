@@ -5,25 +5,26 @@ angular.module('LenasRecipes.services', []).
 
     recipesAPI.getRecipes = function() {
 
-        return $http({
+      return $http({
         method: 'GET', 
         url: 'http://localhost:8080/api/recipes'
       });
     }
-    
+
     recipesAPI.getRecipesByCategory = function(category) {
-    return $http({
+
+      return $http({
         method: 'GET', 
         url: 'http://localhost:8080/api/recipes?category=' + category
       });
     }
-    
+
     recipesAPI.getRecipeDetails = function(id) {
-    return $http({
+      return $http({
         method: 'GET', 
         url: 'http://localhost:8080/api/recipes/' + id
       });
     } 
-      
+
     return recipesAPI;
   });
