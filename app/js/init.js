@@ -83,6 +83,10 @@
 				hoverDelay: 150,
 				hideDelay: 350
 			});
+            
+            $(window).on('hashchange', function() {
+              $('li.opener').trigger('mouseout');
+            });
 
 	});
 

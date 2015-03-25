@@ -1,4 +1,5 @@
 angular.module('LenasRecipes.controllers', []).
+
 controller('RecipesController', function($scope, recipesAPIservice) {
   $scope.recipesList = [];
 
