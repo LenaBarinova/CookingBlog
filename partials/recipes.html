@@ -1,0 +1,25 @@
+<!-- Recipes -->
+<div id="features-wrapper">
+  <section id="features" class="container">
+    <header>
+    <h2>These are my recent <strong>healthy, easy and delicious</strong> recipes!</h2>
+    </header>
+    <div class="row">
+      <div class="4u" ng-repeat="recipe in recipes">
+        
+        <!-- Feature -->
+        <section>
+          <a href="#/recipes/{{recipe.RecipeID}}" class="image featured"><img ng-src="{{recipe.ImageURL}}" alt="" /></a>
+          <header>
+            <h4><a href="#/recipes/{{recipe.RecipeID}}" >{{recipe.Title}}</a></h4>
+          </header>
+          <p>{{recipe.Description}}</p>
+        </section>
+      </div>
+    </div>
+    
+    <ul class="actions">
+      <li><a href="#" class="button">1</a> <a href="#" class="button">2</a> <a href="#" class="button">>></a></li>
+    </ul>
+  </section>
+</div>
