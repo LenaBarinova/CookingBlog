@@ -12,6 +12,9 @@
                 templateUrl: "partials/recipe.html",
                 controller: "RecipeController"
             })
+            .when("/about", {
+                templateUrl: "partials/about.html"
+            })
             .otherwise({redirectTo:"/recipes"});
     });
     
