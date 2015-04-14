@@ -91,7 +91,7 @@
 			{
 				display: block;
 				border: 0;
-				padding: 0.25em 0 0 0;
+				padding: 0.15em 0 0 0;
 				margin: 0;
 			}
 
@@ -245,7 +245,7 @@
 	
 	#footer-wrapper
 	{
-		padding: 2em 20px 2em 20px;
+		padding: 0 20px 1em 20px;
 	}
 
 /*********************************************************************************/
@@ -373,6 +373,6 @@
 
 	#copyright
 	{
-		margin-top: 1em;
-		padding-top: 1em;
+		margin-top: 0em;
+		padding-top: 0em;
 	}
