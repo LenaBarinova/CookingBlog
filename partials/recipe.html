@@ -6,12 +6,18 @@
       <div id="content" class="8u">
 
         <!-- Post -->
-        <article class="box post">
           <header>
             <h2><b>{{recipe.Title}}</b></h2>
           </header>
-          <span class="image featured"><img src="{{recipe.ImageURL}}" alt="" width=20/></span>
+        
+        <div class="row">
+          <div class="8u">
+            <span class="image featured"><img src="{{recipe.ImageURL}}" alt=""/></span></div>
+          <div class="4u">
           <p>{{recipe.Description}} {{recipe.Story}}</p>
+          </div>
+        </div>   
+          
         <h3>Ingredients</h3>
           <p>
             <span ng-repeat="ingredient in ingredients">
@@ -23,7 +29,7 @@
           <p>
               <span ng-repeat="instruction in instructions"><strong>{{instruction.StepID}}</strong>:   {{instruction.Action}} <br /></span>
           </p>
-       </article>
+    
 
       </div>
 
