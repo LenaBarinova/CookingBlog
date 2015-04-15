@@ -2,7 +2,7 @@
 
   angular.module("cookingBlog").directive('jbNav', function() {
     return {
-      templateUrl: "./partials/jbNav.html",
+      templateUrl: "././partials/jbNav.html",
       restrict: "E",
       link: function () {
                 $('#nav > ul').dropotron({
