@@ -75,15 +75,6 @@
 		// CSS polyfills (IE<9).
 			if (skel.vars.IEVersion < 9)
 				$(':last-child').addClass('last-child');
-
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				mode: 'fade',
-				noOpenerFade: true,
-				hoverDelay: 150,
-				hideDelay: 350
-			});
-
 	});
 
 })(jQuery);

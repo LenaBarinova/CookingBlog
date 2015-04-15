@@ -14,42 +14,25 @@
     
     <script src="js/app.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/jbNav.js"></script>
+    <script src="js/jbFooter.js"></script>
+    
     <noscript>
       <link rel="stylesheet" href="css/skel.css" />
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/style-desktop.css" />
     </noscript>
   </head>
-
+  
+  <!-- Header -->
   <body class="homepage">
     <div id="header-wrapper">
       <div id="header" class="container">
         <h1 id="logo"> <a href="#/recipes">Lena's cooking notes</a></h1>
        
         <!-- Nav -->
-		<nav id="nav">
-          <ul>
-            <li><a class="icon fa-cutlery" href="#/recipes"><span>Recipes</span></a></li>
-            <li>
-            <a href="" class="icon fa-folder-open-o"><span>Categories</span></a>
-              <ul>
-                <li><a href="#">Breakfast</a></li>
-                <li><a href="#">Snacks</a></li>
-                <li><a href="#">Long meals</a></li>
-                <li><a href="#">Sweets</a></li>
-                <li>
-                  <a href="">18 min meals</a>
-                  <ul>
-                    <li><a href="#">Pizza</a></li>
-                    <li><a href="#">Salad</a></li>
-                    <li><a href="#">Pasta</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a class="icon fa-heart-o" href="#/about"><span>About</span></a></li>
-          </ul>
-        </nav>
+        <jb-nav></jb-nav>
+        
       </div>
     </div>
     
@@ -57,46 +40,7 @@
     <div ng-view></div>
     
     <!-- Footer -->
-    <div id="footer-wrapper">
-      <div id="footer" class="container">
-        
-        <header>
-          <h2>Questions or comments? <strong>Get in touch:</strong></h2>
-        </header>
-
-            <p>Drop me an email, or message. I'd be glad to hear your comments or answer your questions.</p>
-            
-            <div class="row">
-              <div class="3u">
-                <ul class="icons">
-                  <li class="icon fa-envelope"><a href="mailto:fiodorova.jelena@gmail.com?Subject=Lena's cooking blog" target="_top">Write an email</a></li>
-                </ul>
-              </div>   
-              <div class="3u">
-                <ul class="icons">
-                  <li class="icon fa-instagram" target="_blank"><a href="http://www.instagram.com/jfiodorova">@jfiodorova</a></li>
-                </ul>
-              </div>
-              <div class="3u">
-                <ul class="icons">
-                  <li class="icon fa-facebook-official"><a href="http://www.facebook.com/jelena.fiodorova" target="_blank">Jelena Barinova</a></li>
-                </ul>
-              </div>
-              <div class="3u">
-                <ul class="icons">
-                  <li class="icon fa-pinterest-p"><a href="http://www.pinterest.com/jfiodorova/lenas-cooking-notes/" target="_blank">Lena's Cooking Notes</a></li>
-                </ul>
-              </div>
-            </div>
-
-      </div>
-    </div>
-    
-    <div id="copyright" class="container">
-      <ul class="links">
-        <li>&nbsp;&nbsp;&copy; Lena's cooking blog. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-      </ul>
-    </div>
+    <jb-footer></jb-footer>
     
   </body>
 </html>
