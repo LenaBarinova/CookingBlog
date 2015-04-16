@@ -4,13 +4,13 @@
     return {
       templateUrl: "././partials/jbNav.html",
       restrict: "E",
-      link: function () {
+      link: function (scope, element) {
                 $('#nav > ul').dropotron({
-				mode: 'fade',
-				noOpenerFade: true,
-				hoverDelay: 150,
-				hideDelay: 350
-			});
+                  mode: 'fade',
+                  noOpenerFade: true,
+                  hoverDelay: 150,
+                  hideDelay: 350
+			   });
             }
     };
   });

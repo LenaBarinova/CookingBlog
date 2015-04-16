@@ -3,38 +3,65 @@
     <div class="row">
        
       <!-- Content -->
-      <div id="content" class="8u">
+      <div id="content" class="9u">
 
         <!-- Post -->
-          <header>
-            <h2><b>{{recipe.Title}}</b></h2>
-          </header>
+        <header>
+          <h2><b>{{recipe.Title}}</b></h2>
+        </header>
         
-        <div class="row">
-          <div class="8u">
-            <span class="image featured"><img src="{{recipe.ImageURL}}" alt=""/></span></div>
-          <div class="4u">
-          <p>{{recipe.Description}} {{recipe.Story}}</p>
-          </div>
-        </div>   
-          
-        <h3>Ingredients</h3>
-          <p>
-            <span ng-repeat="ingredient in ingredients">
-              <strong>{{ingredient.Quantity}} {{ingredient.Unit}}</strong> <span ng-show="ingredient.Quantity"> of </span>{{ingredient.Name}} <em>{{ingredient.PreparationNotes}}</em>
-              <br />
-            </span>
-          </p>
+        
+        
+        <!--
+        <div class="image featured" style="width:50%; float:right;">
+          <img src="{{recipe.ImageURL}}" alt=""/>
+        </div>
+        <div>
+          <h3>Ingredients</h3>
+          <ul ng-repeat="ingredient in ingredients">
+            <li>
+              <span>{{ingredient.Quantity}} {{ingredient.Unit}}</span> 
+              <span ng-show="ingredient.Quantity">of</span> {{ingredient.Name}} 
+              <span>{{ingredient.PreparationNotes}}</span>
+            </li>
+          </ul>
+        </div>
+        <div>
           <h3>Instructions</h3>
-          <p>
-              <span ng-repeat="instruction in instructions"><strong>{{instruction.StepID}}</strong>:   {{instruction.Action}} <br /></span>
-          </p>
-    
-
+          <ul ng-repeat="instruction in instructions">
+            <li>
+              <span>{{instruction.StepID}}</span>: {{instruction.Action}}
+            </li>
+          </ul>
+        </div>
       </div>
-
+      -->
+        <div class="row">
+          <div class="6u">
+            <p>{{recipe.Description}}</p><p> {{recipe.Story}}</p>
+            <h3>Ingredients</h3>
+            <p>
+              <span ng-repeat="ingredient in ingredients">
+                <strong>{{ingredient.Quantity | amount}} {{ingredient.Unit}}</strong> <span ng-show="ingredient.Quantity"> of </span>{{ingredient.Name}} <em>{{ingredient.PreparationNotes}}</em>
+                <br />
+              </span>
+            </p>
+          </div>
+          <div class="6u">
+            <span class="image featured"><img src="{{recipe.ImageURL}}" alt=""/></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="12u">
+            <h3>Instructions</h3>
+            <p>
+              <span ng-repeat="instruction in instructions"><strong>{{instruction.StepID}}</strong>:   {{instruction.Action}} <br /></span>
+            </p>
+          </div>
+        </div>
+      </div>     
       <!-- Sidebar -->
-      <div id="sidebar" class="4u" jb-sidebar ng-hide="false"/>
+      <div id="sidebar" class="3u" jb-sidebar ng-hide="false"/>
 
     </div>
   </div>
