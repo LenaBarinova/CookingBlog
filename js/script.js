@@ -1,14 +1,16 @@
-(function() {
+(function () {
+  
+  'use strict';
 
-  var app = angular.module("cookingBlog.controllers", []);
+  var app = angular.module("cookingBlog");
 
-  var RecipesController = function($scope, $http) {
+  var RecipesController = function ($scope, $http) {
     
-    var onRecipesComplete = function(response) {
+    var onRecipesComplete = function (response) {
       $scope.recipes = response.data;
     };
 
-    var onError = function(reason) {
+    var onError = function (reason) {
       $scope.error = "Could not fetch data";
     };
 
@@ -20,17 +22,17 @@
   app.controller("RecipesController", ["$scope", "$http", RecipesController]);
 
   
-  var RecipeController = function($scope, $http, $routeParams) {
+  var RecipeController = function ($scope, $http, $routeParams) {
     
     var id = $routeParams.id;
     
-    var onRecipeComplete = function(response) {
+    var onRecipeComplete = function (response) {
       $scope.recipe = response.data;
       $scope.ingredients = $scope.recipe.Ingredients;
       $scope.instructions = $scope.recipe.Instructions;
     };
 
-    var onError = function(reason) {
+    var onError = function (reason) {
       $scope.error = "Could not fetch data";
     };
 

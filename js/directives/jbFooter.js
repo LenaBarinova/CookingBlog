@@ -1,9 +1,16 @@
-(function(){
+(function () {
+  
+  'use strict';
 
-  angular.module("cookingBlog").directive('jbFooter', function() {
+  var app = angular.module("cookingBlog");
+  
+  var jbFooter = function () {
     return {
       templateUrl: "././partials/jbFooter.html",
       restrict: "E"
     };
-  });
+  };
+  
+  app.directive('jbFooter', jbFooter);
+  
 }());

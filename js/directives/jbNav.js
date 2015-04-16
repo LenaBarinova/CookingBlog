@@ -1,17 +1,24 @@
-(function(){
+(function () {
+  
+  'use strict';
 
-  angular.module("cookingBlog").directive('jbNav', function() {
+  var app = angular.module("cookingBlog");
+  
+  var jbNav = function () {
     return {
       templateUrl: "././partials/jbNav.html",
       restrict: "E",
       link: function (scope, element) {
-                $('#nav > ul').dropotron({
-                  mode: 'fade',
-                  noOpenerFade: true,
-                  hoverDelay: 150,
-                  hideDelay: 350
-			   });
-            }
+        $('#nav > ul').dropotron({
+          mode: 'fade',
+          noOpenerFade: true,
+          hoverDelay: 150,
+          hideDelay: 350
+		    });
+      }
     };
-  });
+  };
+  
+  app.directive("jbNav", jbNav);
+  
 }());

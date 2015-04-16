@@ -1,8 +1,15 @@
-(function(){
+(function () {
+    
+  'use strict';
 
-  angular.module("cookingBlog").directive('jbSidebar', function() {
+  var app = angular.module("cookingBlog");
+  
+  var jbSidebar = function () {
     return {
       templateUrl: "././partials/jbSidebar.html"
     };
-  });
+  };
+  
+  app.directive('jbSidebar', jbSidebar);
+  
 }());
