@@ -1,11 +1,9 @@
-(function () {
-  
+(function (app) {
+
   'use strict';
 
-  var app = angular.module("cookingBlog");
-
   var RecipesController = function ($scope, $http) {
-    
+
     var onRecipesComplete = function (response) {
       $scope.recipes = response.data;
     };
@@ -16,9 +14,9 @@
 
     $http.get("http://localhost:8080/api/recipes")
       .then(onRecipesComplete, onError);
-    
+
   };
-  
+
   app.controller("RecipesController", ["$scope", "$http", RecipesController]);
 
-}());
+}(angular.module("cookingBlog")));

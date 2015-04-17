@@ -1,8 +1,6 @@
-(function () {
+(function (app) {
 
   'use strict';
-
-  var app = angular.module("cookingBlog");
 
   var RecipeController = function (recipeDetails, $scope, $routeParams) {
 
@@ -24,4 +22,4 @@
 
   app.controller("RecipeController", ["recipeDetails", "$scope", "$routeParams", RecipeController]);
 
-}());
+}(angular.module("cookingBlog")));

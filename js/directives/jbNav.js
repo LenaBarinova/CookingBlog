@@ -1,9 +1,7 @@
-(function () {
-  
+(function (app) {
+
   'use strict';
 
-  var app = angular.module("cookingBlog");
-  
   var jbNav = function () {
     return {
       templateUrl: "././partials/jbNav.html",
@@ -14,11 +12,11 @@
           noOpenerFade: true,
           hoverDelay: 150,
           hideDelay: 350
-		    });
+        });
       }
     };
   };
-  
+
   app.directive("jbNav", jbNav);
-  
-}());
+
+}(angular.module("cookingBlog")));

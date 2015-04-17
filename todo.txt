@@ -1,0 +1,2 @@
++ pass module as parameter to all closures
+

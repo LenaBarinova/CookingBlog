@@ -1,12 +1,10 @@
-(function () {
-  
+(function (app) {
+
   'use strict';
 
-  var app = angular.module("cookingBlog");
-  
   var amountFilter = function () {
     return function (amount) {
-    
+
       var floor = Math.floor(amount);
       var prefix = floor > 0 ? floor + " & " : "";
 
@@ -27,7 +25,7 @@
       }
     };
   };
-  
+
   app.filter("amount", amountFilter);
-  
-}());
+
+}(angular.module("cookingBlog")));
