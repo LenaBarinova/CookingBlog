@@ -1,7 +1,7 @@
 <div id="main-wrapper">
   <div id="main" class="container">
     <div class="row">
-       
+
       <!-- Content -->
       <div id="content" class="9u">
 
@@ -9,9 +9,9 @@
         <header>
           <h2><b>{{recipe.Title}}</b></h2>
         </header>
-        
-        
-        
+
+
+
         <!--
         <div class="image featured" style="width:50%; float:right;">
           <img ng-src="{{recipe.ImageURL}}" alt=""/>
@@ -38,12 +38,13 @@
       -->
         <div class="row">
           <div class="6u">
-            <p>{{recipe.Description}}</p><p> {{recipe.Story}}</p>
+            <p>{{recipe.Description}}</p>
+            <p> {{recipe.Story}}</p>
             <h3>Ingredients</h3>
             <p>
               <span ng-repeat="ingredient in ingredients">
                 <strong>{{ingredient.Quantity | amount}} {{ingredient.Unit}}</strong> <span ng-show="ingredient.Quantity"> of </span>{{ingredient.Name}} <em>{{ingredient.PreparationNotes}}</em>
-                <br />
+              <br />
               </span>
             </p>
           </div>
@@ -59,11 +60,10 @@
             </p>
           </div>
         </div>
-      </div>     
+      </div>
       <!-- Sidebar -->
-      <div id="sidebar" class="3u" jb-sidebar ng-hide="false"/>
+      <div id="sidebar" class="3u" jb-sidebar ng-hide="false" />
 
     </div>
   </div>
 </div>
-
