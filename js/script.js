@@ -15,6 +15,7 @@
     $http.get("http://localhost:8080/api/recipes")
       .then(onRecipesComplete, onError);
 
+    //$resour
   };
 
   app.controller("RecipesController", ["$scope", "$http", RecipesController]);

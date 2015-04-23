@@ -2,7 +2,7 @@
 
   'use strict';
 
-  var jbNav = function () {
+  var jbNav = function ($location) {
     return {
       templateUrl: "././partials/jbNav.html",
       restrict: "E",
@@ -13,10 +13,16 @@
           hoverDelay: 150,
           hideDelay: 350
         });
+        scope.showRecipes = function () {
+          $location.url('/recipes');
+        };
+        scope.showAbout = function () {
+          $location.url('/about');
+        };
       }
     };
   };
 
-  app.directive("jbNav", jbNav);
+  app.directive("jbNav", ["$location", jbNav]);
 
 }(angular.module("cookingBlog")));
