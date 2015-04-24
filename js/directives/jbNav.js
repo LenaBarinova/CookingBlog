@@ -11,7 +11,7 @@
     });
   };
 
-  var jbController = function ($scope, $location) {
+  var NavController = function ($scope, $location) {
     $scope.showRecipes = function () {
       $location.url('/recipes');
     };
@@ -25,7 +25,7 @@
       templateUrl: "././partials/jbNav.html",
       restrict: "E",
       link: link,
-      controller: jbController
+      controller: NavController
     };
   };
 
