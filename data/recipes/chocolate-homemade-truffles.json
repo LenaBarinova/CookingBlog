@@ -80,37 +80,13 @@
         }
     ],
   "instructions": [
-    {
-      "StepID": 1,
-      "Action": "Melt butter and chocolate."
-      },
-    {
-      "StepID": 2,
-      "Action": "Mix crushed cookies and nuts."
-      },
-    {
-      "StepID": 3,
-      "Action": "Add cacao powder to the cookies and nuts, stir well. Start adding condensed milk keep stirring."
-      },
-    {
-      "StepID": 4,
-      "Action": "And finally add melted butter and chocolate."
-      },
-    {
-      "StepID": 5,
-      "Action": "You can add some rum to the mixture at this stage if you like."
-      },
-    {
-      "StepID": 6,
-      "Action": "Refrigerate the mixture for 15 to 30 minutes (the mixture will become thicker and it’s a lot easier to work with it when its cold)."
-      },
-    {
-      "StepID": 7,
-      "Action": "Make small balls. Coat them in crushed cookies or cacao powder or crushed nuts."
-      },
-    {
-      "StepID": 8,
-      "Action": "Keep in the fridge before serving."
-      }
+    "Melt butter and chocolate.",
+    "Mix crushed cookies and nuts.",
+    "Add cacao powder to the cookies and nuts, stir well. Start adding condensed milk keep stirring.",
+    "And finally add melted butter and chocolate.",
+    "You can add some rum to the mixture at this stage if you like.",
+    "Refrigerate the mixture for 15 to 30 minutes (the mixture will become thicker and it’s a lot easier to work with it when its cold).",
+    "Make small balls. Coat them in crushed cookies or cacao powder or crushed nuts.",
+    "Keep in the fridge before serving."
     ]
 }

@@ -56,7 +56,7 @@
           <div class="12u">
             <h3>Instructions</h3>
             <p>
-              <span ng-repeat="instruction in instructions"><strong>{{instruction.StepID}}</strong>:   {{instruction.Action}} <br /></span>
+              <span ng-repeat="instruction in instructions"><strong>{{$index + 1}}</strong>:   {{instruction}} <br /></span>
             </p>
           </div>
         </div>

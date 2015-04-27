@@ -56,29 +56,11 @@
         }
     ],
   "instructions": [
-    {
-      "StepID": 1,
-      "Action": "Cook rice."
-      },
-    {
-      "StepID": 2,
-      "Action": "Soute finely chopped onion on some olive oil."
-      },
-    {
-      "StepID": 3,
-      "Action": "Add chopped bell peppper to onion."
-      },
-    {
-      "StepID": 4,
-      "Action": "Cook for several minutes."
-      },
-    {
-      "StepID": 5,
-      "Action": "Add egg and mix well (so that egg would become scrambled)."
-      },
-    {
-      "StepID": 6,
-      "Action": "Add rice and pees."
-      }
+    "Cook rice.",
+    "Souté finely chopped onion on some olive oil.",
+    "Add chopped bell peppper to onion.",
+    "Cook for several minutes.",
+    "Add egg and mix well (so that egg would become scrambled).",
+    "Add rice and pees."
     ]
 }
