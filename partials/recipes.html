@@ -9,10 +9,10 @@
 
         <!-- Recipe -->
         <section>
-          <a href="#/recipes/{{recipe.slug}}" class="image featured"><img ng-src="{{recipe.imageURL}}" alt="" />
+          <a href="{{recipe.recipeURL}}" class="image featured"><img ng-src="{{recipe.imageURL}}" alt="" />
           </a>
           <header>
-            <h4><a href="#/recipes/{{recipe.slug}}" >{{recipe.title}}</a></h4>
+            <h4><a href="{{recipe.recipeURL}}">{{recipe.title}}</a></h4>
           </header>
           <p>{{recipe.description}}</p>
         </section>
