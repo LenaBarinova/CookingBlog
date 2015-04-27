@@ -1,2 +1,7 @@
 + pass module as parameter to all closures
+- split json: one file for each recipe
+- make recipe preview json file: one for all
+- get rid of API, read json directly from blog
+- host site on GitHubPages
+- adjust code to use new jsons
 
