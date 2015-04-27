@@ -12,7 +12,7 @@
       $scope.error = "Could not fetch data";
     };
 
-    $http.get("http://localhost:8080/api/recipes")
+    $http.get("./data/recipes/all_recipes_preview.json")
       .then(onRecipesComplete, onError);
 
     //$resour

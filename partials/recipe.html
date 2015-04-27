@@ -7,22 +7,22 @@
 
         <!-- Post -->
         <header>
-          <h2><b>{{recipe.Title}}</b></h2>
+          <h2><b>{{recipe.title}}</b></h2>
         </header>
 
 
 
         <!--
         <div class="image featured" style="width:50%; float:right;">
-          <img ng-src="{{recipe.ImageURL}}" alt=""/>
+          <img ng-src="{{recipe.imageURL}}" alt=""/>
         </div>
         <div>
           <h3>Ingredients</h3>
           <ul ng-repeat="ingredient in ingredients">
             <li>
-              <span>{{ingredient.Quantity}} {{ingredient.Unit}}</span> 
-              <span ng-show="ingredient.Quantity">of</span> {{ingredient.Name}} 
-              <span>{{ingredient.PreparationNotes}}</span>
+              <span>{{ingredient.quantity}} {{ingredient.unit}}</span>
+              <span ng-show="ingredient.quantity">of</span> {{ingredient.name}}
+              <span>{{ingredient.preparationNotes}}</span>
             </li>
           </ul>
         </div>
@@ -38,18 +38,18 @@
       -->
         <div class="row">
           <div class="6u">
-            <p>{{recipe.Description}}</p>
-            <p> {{recipe.Story}}</p>
+            <p>{{recipe.description}}</p>
+            <p> {{recipe.story}}</p>
             <h3>Ingredients</h3>
             <p>
               <span ng-repeat="ingredient in ingredients">
-                <strong>{{ingredient.Quantity | amount}} {{ingredient.Unit}}</strong> <span ng-show="ingredient.Quantity"> of </span>{{ingredient.Name}} <em>{{ingredient.PreparationNotes}}</em>
+                <strong>{{ingredient.quantity | amount}} {{ingredient.unit}}</strong> <span ng-show="ingredient.quantity"> of </span>{{ingredient.name}} <em>{{ingredient.preparationNotes}}</em>
               <br />
               </span>
             </p>
           </div>
           <div class="6u">
-            <span class="image featured"><img ng-src="{{recipe.ImageURL}}" alt=""/></span>
+            <span class="image featured"><img ng-src="{{recipe.imageURL}}" alt=""/></span>
           </div>
         </div>
         <div class="row">

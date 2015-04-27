@@ -4,4 +4,6 @@
 - get rid of API, read json directly from blog
 - host site on GitHubPages
 - adjust code to use new jsons
+- rename images
+- add google tracking
 

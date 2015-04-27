@@ -1,0 +1,84 @@
+{
+  "recipeID": 2,
+  "title": "Wild rice & Chicken",
+  "slug": "wild-rice-chicken",
+  "description": "Easy to make after the work for healthy dinner.",
+  "story": "This easy recipe could go as a side dish for fish or meat or can be just good by itself.",
+  "category": "15 min meals",
+  "subcategory": "Other",
+  "webURL": "http://www.lenacooking.com/recipes/wild-rice-chicken",
+  "imageURL": "images/recipes/wild-rice-chicken.jpg",
+  "CreationDate": "/Date(1428456424000)/",
+  "LastModified": "/Date(1428438802790)/",
+  "Servings": 3,
+  "TotalMinutes": 15,
+  "ActiveMinutes": 15,
+  "Ingredients": [
+    {
+      "ingredientID": 12,
+      "displayIndex": 0,
+      "name": "wild rice",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 13,
+      "displayIndex": 1,
+      "name": "pees",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "frozen"
+        },
+    {
+      "ingredientID": 9,
+      "displayIndex": 2,
+      "name": "onion",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 8,
+      "displayIndex": 3,
+      "name": "bell pepper",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 1,
+      "displayIndex": 0,
+      "name": "eggs",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        }
+    ],
+  "Instructions": [
+    {
+      "StepID": 1,
+      "Action": "Cook rice."
+      },
+    {
+      "StepID": 2,
+      "Action": "Soute finely chopped onion on some olive oil."
+      },
+    {
+      "StepID": 3,
+      "Action": "Add chopped bell peppper to onion."
+      },
+    {
+      "StepID": 4,
+      "Action": "Cook for several minutes."
+      },
+    {
+      "StepID": 5,
+      "Action": "Add egg and mix well (so that egg would become scrambled)."
+      },
+    {
+      "StepID": 6,
+      "Action": "Add rice and pees."
+      }
+    ]
+}

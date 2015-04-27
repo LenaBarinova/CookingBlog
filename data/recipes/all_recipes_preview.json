@@ -1,0 +1,338 @@
+[
+  {
+    "recipeID": 1,
+    "title": "Chocolate Homemade Truffles",
+    "slug": "chocolate-homemade-truffles",
+    "description": "Slightly updated and enriched recipe of sweets (Adult version).",
+    "story": "Easy to make, no baking, you literally just mix everything and that’s all.",
+    "category": "Sweets",
+    "subcategory": "Other",
+    "webURL": "http://www.lenacooking.com/recipes/chocolate-homemade-truffles",
+    "imageURL": "images/recipes/chocolate-homemade-truffles.jpg",
+    "creationDate": "/Date(1428456424000)/",
+    "lastModified": "/Date(1428438802790)/",
+    "servings": 6,
+    "totalMinutes": 35,
+    "activeMinutes": 30,
+    "ingredients": [
+      {
+        "ingredientID": 12,
+        "displayIndex": 0,
+        "name": "condensed milk",
+        "quantity": 1,
+        "unit": "can",
+        "preparationNotes": "sweetened"
+        },
+      {
+        "ingredientID": 13,
+        "displayIndex": 1,
+        "name": "shortbread cookies",
+        "quantity": 360,
+        "unit": "g",
+        "preparationNotes": "(or just any cookies you like)"
+        },
+      {
+        "ingredientID": 14,
+        "displayIndex": 2,
+        "name": "nuts",
+        "quantity": 1,
+        "unit": "handful",
+        "preparationNotes": "(I take pecan)"
+        },
+      {
+        "ingredientID": 15,
+        "displayIndex": 3,
+        "name": "dark chocolate",
+        "quantity": 120,
+        "unit": "g",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 16,
+        "displayIndex": 4,
+        "name": "cacao powder",
+        "quantity": 50,
+        "unit": "g",
+        "preparationNotes": "unsweetened"
+        },
+      {
+        "ingredientID": 17,
+        "displayIndex": 5,
+        "name": "butter",
+        "quantity": 100,
+        "unit": "g",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 18,
+        "displayIndex": 6,
+        "name": "dark rum",
+        "quantity": 20,
+        "unit": "ml",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 19,
+        "displayIndex": 7,
+        "name": "nuts, crached cookies, cacao powder",
+        "quantity": null,
+        "unit": null,
+        "preparationNotes": "for decoration"
+        }
+    ],
+    "instructions": [
+      {
+        "StepID": 1,
+        "Action": "Melt butter and chocolate."
+      },
+      {
+        "StepID": 2,
+        "Action": "Mix crushed cookies and nuts."
+      },
+      {
+        "StepID": 3,
+        "Action": "Add cacao powder to the cookies and nuts, stir well. Start adding condensed milk keep stirring."
+      },
+      {
+        "StepID": 4,
+        "Action": "And finally add melted butter and chocolate."
+      },
+      {
+        "StepID": 5,
+        "Action": "You can add some rum to the mixture at this stage if you like."
+      },
+      {
+        "StepID": 6,
+        "Action": "Refrigerate the mixture for 15 to 30 minutes (the mixture will become thicker and it’s a lot easier to work with it when its cold)."
+      },
+      {
+        "StepID": 7,
+        "Action": "Make small balls. Coat them in crushed cookies or cacao powder or crushed nuts."
+      },
+      {
+        "StepID": 8,
+        "Action": "Keep in the fridge before serving."
+      }
+    ]
+},
+  {
+    "recipeID": 4,
+    "title": "Ham & Cheese Crepes",
+    "slug": "ham-cheese-crepes",
+    "description": "Nothing fancy today, just simply delicious and easy to make Crepes.",
+    "story": "You can play with stuffing: sweet curd, fried ground beef with onions, chicken with cheese, tomatoes and mozzarella, bananas and Nutella; the list here is endless in fact. Today I'm making Crepes with ham, cheese and vegetables.",
+    "category": "15 min meals",
+    "subcategory": "Other",
+    "webURL": "http://www.lenacooking.com/recipe/ham-cheese-crepes",
+    "imageURL": "images/recipes/ham-cheese-crepes.jpg",
+    "creationDate": "/Date(1428456424000)/",
+    "lastModified": "/Date(1428438802790)/",
+    "servings": 3,
+    "totalMinutes": 25,
+    "activeMinutes": 20,
+    "ingredients": [
+      {
+        "ingredientID": 1,
+        "displayIndex": 0,
+        "name": "eggs",
+        "quantity": 2,
+        "unit": null,
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 2,
+        "displayIndex": 1,
+        "name": "wheat flour",
+        "quantity": 6,
+        "unit": "tbsp",
+        "preparationNotes": "sifted"
+        },
+      {
+        "ingredientID": 3,
+        "displayIndex": 2,
+        "name": "sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 4,
+        "displayIndex": 3,
+        "name": "salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 5,
+        "displayIndex": 4,
+        "name": "whole milk",
+        "quantity": 200,
+        "unit": "ml",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 6,
+        "displayIndex": 5,
+        "name": "ham",
+        "quantity": 200,
+        "unit": "g",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 7,
+        "displayIndex": 6,
+        "name": "cheese",
+        "quantity": 100,
+        "unit": "g",
+        "preparationNotes": "can be any of your's favorite (I prefer white cheddar)"
+        },
+      {
+        "ingredientID": 8,
+        "displayIndex": 7,
+        "name": "bell pepper",
+        "quantity": 0.5,
+        "unit": null,
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 9,
+        "displayIndex": 8,
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": null,
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 10,
+        "displayIndex": 9,
+        "name": "ketchup",
+        "quantity": 3,
+        "unit": "tbsp",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 11,
+        "displayIndex": 10,
+        "name": "herbs",
+        "quantity": 1,
+        "unit": "pinch",
+        "preparationNotes": "(I use Italian mix)"
+        }
+    ],
+    "instructions": [
+      {
+        "StepID": 1,
+        "Action": "For Crepes whisk eggs with sugar, add flour and a pinch of salt. Mix well."
+      },
+      {
+        "StepID": 2,
+        "Action": "Start adding milk gradually and keep whisking. Try to avoid lumps."
+      },
+      {
+        "StepID": 3,
+        "Action": "Set aside  for a couple of minutes."
+      },
+      {
+        "StepID": 4,
+        "Action": "Meanwhile sauté chopped bell pepper and onion on some oil for several minutes (approx. 5-7)."
+      },
+      {
+        "StepID": 5,
+        "Action": "Start cooking Crepes, for the first one I use a table spoon of butter to cook on."
+      },
+      {
+        "StepID": 6,
+        "Action": "I do assembling in parallel to cooking Crepes: on a Crepe a table spoon of ketchup goes. Distribute evenly, add some chopped ham, grated cheese, sautéed vegetables and sprinkle with herbs. Roll."
+      },
+      {
+        "StepID": 7,
+        "Action": "You may reheat Crepe rolls before serving."
+      }
+    ]
+},
+  {
+    "recipeID": 2,
+    "title": "Wild rice & Chicken",
+    "slug": "wild-rice-chicken",
+    "description": "Easy to make after the work for healthy dinner.",
+    "story": "This easy recipe could go as a side dish for fish or meat or can be just good by itself.",
+    "category": "15 min meals",
+    "subcategory": "Other",
+    "webURL": "http://www.lenacooking.com/recipes/wild-rice-chicken",
+    "imageURL": "images/recipes/wild-rice-chicken.jpg",
+    "creationDate": "/Date(1428456424000)/",
+    "lastModified": "/Date(1428438802790)/",
+    "servings": 3,
+    "totalMinutes": 15,
+    "activeMinutes": 15,
+    "ingredients": [
+      {
+        "ingredientID": 12,
+        "displayIndex": 0,
+        "name": "wild rice",
+        "quantity": 0.5,
+        "unit": "cup",
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 13,
+        "displayIndex": 1,
+        "name": "pees",
+        "quantity": 1,
+        "unit": "handful",
+        "preparationNotes": "frozen"
+        },
+      {
+        "ingredientID": 9,
+        "displayIndex": 2,
+        "name": "onion",
+        "quantity": 0.5,
+        "unit": null,
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 8,
+        "displayIndex": 3,
+        "name": "bell pepper",
+        "quantity": 0.5,
+        "unit": null,
+        "preparationNotes": null
+        },
+      {
+        "ingredientID": 1,
+        "displayIndex": 0,
+        "name": "eggs",
+        "quantity": 1,
+        "unit": null,
+        "preparationNotes": null
+        }
+    ],
+    "instructions": [
+      {
+        "StepID": 1,
+        "Action": "Cook rice."
+      },
+      {
+        "StepID": 2,
+        "Action": "Soute finely chopped onion on some olive oil."
+      },
+      {
+        "StepID": 3,
+        "Action": "Add chopped bell peppper to onion."
+      },
+      {
+        "StepID": 4,
+        "Action": "Cook for several minutes."
+      },
+      {
+        "StepID": 5,
+        "Action": "Add egg and mix well (so that egg would become scrambled)."
+      },
+      {
+        "StepID": 6,
+        "Action": "Add rice and pees."
+      }
+    ]
+}
+]

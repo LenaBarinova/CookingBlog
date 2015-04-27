@@ -8,8 +8,8 @@
 
     var onRecipeComplete = function (resource) {
       $scope.recipe = resource;
-      $scope.ingredients = $scope.recipe.Ingredients;
-      $scope.instructions = $scope.recipe.Instructions;
+      $scope.ingredients = $scope.recipe.ingredients;
+      $scope.instructions = $scope.recipe.instructions;
     };
 
     var onError = function (reason) {

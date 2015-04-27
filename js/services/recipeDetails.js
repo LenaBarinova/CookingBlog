@@ -5,25 +5,16 @@
   var recipeDetails = function ($resource) {
     return {
 
-      getRecipe: function (recipeID) {
+      getRecipe: function (id) {
 
-        return $resource("http://localhost:8080/api/recipes/:id", {
-              id: '@id'
-            } //, {"getAll": {method: "GET", isArray:true, params:{}}}
-          )
-          .get({
-            id: recipeID
-          });
+        return $resource("././data/recipes/" + id + ".json")
+          .get();
 
       },
       getRecipes: function () {
 
-        return $resource("http://localhost:8080/api/recipes/", {
-            id: '@id'
-          })
-          .get({
-            id: recipeID
-          });
+        return $resource("././data/recipes/all_recipes_preview.json")
+          .get();
 
       }
     };
