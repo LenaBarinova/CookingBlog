@@ -4,7 +4,7 @@
 
   var app = angular.module("cookingBlog", ["ngRoute", "ngResource"]);
 
-  app.config(function ($routeProvider) {
+  app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when("/recipes", {
         templateUrl: "partials/recipes.html",
@@ -20,6 +20,8 @@
       .otherwise({
         redirectTo: "/recipes"
       });
+    $locationProvider.html5Mode(true);
   });
+
 
 }());
