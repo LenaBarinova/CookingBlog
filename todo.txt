@@ -6,7 +6,7 @@
 + adjust code to use new jsons
 + rename images
 - add google tracking
-- beautify services, use different methods from one service to load data
++ beautify services, use different methods from one service to load data
 - fix date fields in json, show date on page
 - get rid of #
 - add couple of more recipes
