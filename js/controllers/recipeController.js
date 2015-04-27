@@ -2,7 +2,7 @@
 
   'use strict';
 
-  var RecipeController = function (recipeDetails, $scope, $routeParams) {
+  var RecipeController = function (recipesData, $scope, $routeParams) {
 
     var id = $routeParams.id;
 
@@ -16,10 +16,10 @@
       $scope.error = "Could not fetch data";
     };
 
-    recipeDetails.getRecipe(id).$promise.then(onRecipeComplete, onError);
+    recipesData.getRecipe(id).$promise.then(onRecipeComplete, onError);
 
   };
 
-  app.controller("RecipeController", ["recipeDetails", "$scope", "$routeParams", RecipeController]);
+  app.controller("RecipeController", ["recipesData", "$scope", "$routeParams", RecipeController]);
 
 }(angular.module("cookingBlog")));

@@ -2,7 +2,7 @@
 
   'use strict';
 
-  var RecipesPreviewController = function (recipeDetails, $scope) {
+  var RecipesController = function (recipesData, $scope) {
 
     var onRecipesComplete = function (resource) {
       $scope.recipes = resource;
@@ -12,10 +12,10 @@
       $scope.error = "Could not fetch data";
     };
 
-    recipeDetails.getRecipes().$promise.then(onRecipesComplete, onError);
+    recipesData.getRecipes().$promise.then(onRecipesComplete, onError);
 
   };
 
-  app.controller("RecipesPreviewController", ["recipeDetails", "$scope", "$http", RecipesPreviewController]);
+  app.controller("RecipesController", ["recipesData", "$scope", "$http", RecipesController]);
 
 }(angular.module("cookingBlog")));

@@ -2,7 +2,7 @@
 
   'use strict';
 
-  var recipeDetails = function ($resource) {
+  var recipesData = function ($resource) {
     return {
 
       getRecipe: function (id) {
@@ -11,12 +11,12 @@
       },
 
       getRecipes: function () {
-        return $resource("././data/recipes/all_recipes_preview.json")
+        return $resource("././data/recipes/_recipes.json")
           .query();
       }
     };
   };
 
-  app.factory("recipeDetails", ["$resource", recipeDetails]);
+  app.factory("recipesData", ["$resource", recipesData]);
 
 }(angular.module("cookingBlog")));
