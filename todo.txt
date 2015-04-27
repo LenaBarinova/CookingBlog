@@ -1,6 +1,6 @@
 + pass module as parameter to all closures
 + split json: one file for each recipe
-- make recipe preview json file: one for all
++ make recipe preview json file: one for all
 + get rid of API, read json directly from blog
 + host site on GitHubPages
 + adjust code to use new jsons
@@ -10,8 +10,8 @@
 - fix date fields in json, show date on page
 - get rid of #
 - add couple of more recipes
-- fix instructions part (to hold an array of strings, not objects)
-- change open recipe, use simple location for recipeURL, get rid of parameters
++ fix instructions part (to hold an array of strings, not objects)
++ change open recipe, use simple location for recipeURL, get rid of parameters
 - fix mobile view
 - recipe page: show image first, then ingredients in mobile version
 

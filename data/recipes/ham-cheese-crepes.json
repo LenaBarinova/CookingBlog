@@ -104,33 +104,12 @@
         }
     ],
   "instructions": [
-    {
-      "StepID": 1,
-      "Action": "For Crepes whisk eggs with sugar, add flour and a pinch of salt. Mix well."
-      },
-    {
-      "StepID": 2,
-      "Action": "Start adding milk gradually and keep whisking. Try to avoid lumps."
-      },
-    {
-      "StepID": 3,
-      "Action": "Set aside  for a couple of minutes."
-      },
-    {
-      "StepID": 4,
-      "Action": "Meanwhile sauté chopped bell pepper and onion on some oil for several minutes (approx. 5-7)."
-      },
-    {
-      "StepID": 5,
-      "Action": "Start cooking Crepes, for the first one I use a table spoon of butter to cook on."
-      },
-    {
-      "StepID": 6,
-      "Action": "I do assembling in parallel to cooking Crepes: on a Crepe a table spoon of ketchup goes. Distribute evenly, add some chopped ham, grated cheese, sautéed vegetables and sprinkle with herbs. Roll."
-      },
-    {
-      "StepID": 7,
-      "Action": "You may reheat Crepe rolls before serving."
-      }
+    "For Crepes whisk eggs with sugar, add flour and a pinch of salt. Mix well.",
+    "Start adding milk gradually and keep whisking. Try to avoid lumps.",
+    "Set aside  for a couple of minutes.",
+    "Meanwhile sauté chopped bell pepper and onion on some oil for several minutes (approx. 5-7).",
+    "Start cooking Crepes, for the first one I use a table spoon of butter to cook on.",
+    "I do assembling in parallel to cooking Crepes: on a Crepe a table spoon of ketchup goes. Distribute evenly, add some chopped ham, grated cheese, sautéed vegetables and sprinkle with herbs. Roll.",
+    "You may reheat Crepe rolls before serving."
     ]
 }
