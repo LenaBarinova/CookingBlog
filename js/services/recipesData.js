@@ -11,7 +11,7 @@
       },
 
       getRecipes: function () {
-        return $resource("././data/recipes/_recipes.json")
+        return $resource("././data/recipes/all_recipes.json")
           .query();
       }
     };
