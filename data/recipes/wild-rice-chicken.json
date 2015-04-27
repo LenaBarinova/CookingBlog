@@ -8,12 +8,12 @@
   "subcategory": "Other",
   "webURL": "http://www.lenacooking.com/recipes/wild-rice-chicken",
   "imageURL": "images/recipes/wild-rice-chicken.jpg",
-  "CreationDate": "/Date(1428456424000)/",
-  "LastModified": "/Date(1428438802790)/",
-  "Servings": 3,
-  "TotalMinutes": 15,
-  "ActiveMinutes": 15,
-  "Ingredients": [
+  "creationDate": "/Date(1428456424000)/",
+  "lastModified": "/Date(1428438802790)/",
+  "servings": 3,
+  "totalMinutes": 15,
+  "activeMinutes": 15,
+  "ingredients": [
     {
       "ingredientID": 12,
       "displayIndex": 0,
@@ -55,7 +55,7 @@
       "preparationNotes": null
         }
     ],
-  "Instructions": [
+  "instructions": [
     {
       "StepID": 1,
       "Action": "Cook rice."

@@ -8,12 +8,12 @@
   "subcategory": "Other",
   "webURL": "http://www.lenacooking.com/recipe/ham-cheese-crepes",
   "imageURL": "images/recipes/ham-cheese-crepes.jpg",
-  "CreationDate": "/Date(1428456424000)/",
-  "LastModified": "/Date(1428438802790)/",
-  "Servings": 3,
-  "TotalMinutes": 25,
-  "ActiveMinutes": 20,
-  "Ingredients": [
+  "creationDate": "/Date(1428456424000)/",
+  "lastModified": "/Date(1428438802790)/",
+  "servings": 3,
+  "totalMinutes": 25,
+  "activeMinutes": 20,
+  "ingredients": [
     {
       "ingredientID": 1,
       "displayIndex": 0,
@@ -103,7 +103,7 @@
       "preparationNotes": "(I use Italian mix)"
         }
     ],
-  "Instructions": [
+  "instructions": [
     {
       "StepID": 1,
       "Action": "For Crepes whisk eggs with sugar, add flour and a pinch of salt. Mix well."
