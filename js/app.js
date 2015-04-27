@@ -8,7 +8,7 @@
     $routeProvider
       .when("/recipes", {
         templateUrl: "partials/recipes.html",
-        controller: "RecipesController"
+        controller: "RecipesPreviewController"
       })
       .when("/recipes/:id", {
         templateUrl: "partials/recipe.html",

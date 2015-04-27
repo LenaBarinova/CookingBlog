@@ -6,16 +6,13 @@
     return {
 
       getRecipe: function (id) {
-
         return $resource("././data/recipes/" + id + ".json")
           .get();
-
       },
+
       getRecipes: function () {
-
         return $resource("././data/recipes/all_recipes_preview.json")
-          .get();
-
+          .query();
       }
     };
   };
