@@ -78,5 +78,21 @@
     "servings": 4,
     "totalMinutes": 20,
     "activeMinutes": 20
+  },
+  {
+    "recipeID": 4,
+    "title": "Greek Salad",
+    "slug": "greek-salad",
+    "description": "Light, easy, healthy, delicious. Very good dinner option to have after a work day.",
+    "story": "Light, delicious soup, very good for healthy dinner.",
+    "category": "Salads",
+    "subcategory": "Other",
+    "recipeURL": "#/recipes/greek-salad",
+    "imageURL": "images/recipes/greek-salad.jpg",
+    "creationDate": "/Date(1428456424000)/",
+    "lastModified": "/Date(1428438802790)/",
+    "servings": 4,
+    "totalMinutes": 15,
+    "activeMinutes": 15
   }
 ]

@@ -8,10 +8,14 @@
 - add google tracking
 + beautify services, use different methods from one service to load data
 - fix date fields in json, show date on page
-- get rid of #
 + add couple of more recipes
 + fix instructions part (to hold an array of strings, not objects)
 + change open recipe, use simple location for recipeURL, get rid of parameters
 - fix mobile view
 - recipe page: show image first, then ingredients in mobile version
+- minify
+- make deployment scripts
+- develop category filtering
+- add ingridients array to al_recipes
+- make a full text search
 

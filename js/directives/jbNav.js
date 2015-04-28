@@ -9,6 +9,7 @@
       hoverDelay: 150,
       hideDelay: 350
     });
+
   };
 
   var NavController = function ($scope, $location) {
@@ -22,9 +23,8 @@
 
   var jbNav = function () {
     return {
-      templateUrl: "././partials/jbNav.html",
-      restrict: "E",
-      link: link,
+      //templateUrl: "././partials/jbNav.html",
+      //link: link,
       controller: NavController
     };
   };
