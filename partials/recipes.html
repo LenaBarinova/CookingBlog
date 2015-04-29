@@ -5,7 +5,7 @@
       <h2>These are my recent <strong>healthy, easy and delicious</strong> recipes!</h2>
     </header>
     <div class="row">
-      <div class="4u" ng-repeat="recipe in recipes">
+      <div class="4u" ng-repeat="recipe in recipes| filter: {category: byCategory}">
 
         <!-- Recipe -->
         <section>

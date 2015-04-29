@@ -2,7 +2,7 @@
 
   'use strict';
 
-  var RecipesController = function (recipesData, $scope) {
+  var RecipesController = function (recipesData, $scope, $routeParams) {
 
     var onRecipesComplete = function (resource) {
       $scope.recipes = resource;
@@ -12,10 +12,16 @@
       $scope.error = "Could not fetch data";
     };
 
+
     recipesData.getRecipes().$promise.then(onRecipesComplete, onError);
+
+    if ($routeParams.category !== "") {
+      $scope.byCategory = ($routeParams.category == "all") ? "" : $routeParams.category;
+    }
+
 
   };
 
-  app.controller("RecipesController", ["recipesData", "$scope", "$http", RecipesController]);
+  app.controller("RecipesController", ["recipesData", "$scope", "$routeParams", RecipesController]);
 
 }(angular.module("cookingBlog")));
