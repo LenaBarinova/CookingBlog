@@ -15,7 +15,7 @@
         controller: "RecipeController"
       })
       .when("/recipes?category", {
-        templateUrl: "partials/recipe.html",
+        templateUrl: "partials/recipes.html",
         controller: "RecipeController"
       })
       .when("/about", {
