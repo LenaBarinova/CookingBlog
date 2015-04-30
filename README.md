@@ -7,4 +7,5 @@ http://jelenabarinova.github.io/CookingBlog.
 * http://html5up.net/strongly-typed
 
 Using Visual Studio Code as an IDE, gulp to run deployment tasks, and other cool trendy stuff.
+Final page will be served on GitHubPages.
 
