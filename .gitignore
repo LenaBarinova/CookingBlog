@@ -4,7 +4,8 @@ css/.DS_Store
 js/.DS_Store
 partials/.DS_Store
 launch.json
-./settings/
+.settings/
 node_modules/
 typings/
 *.log
+.publish/

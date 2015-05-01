@@ -16,7 +16,7 @@ gulp.task('build', function () {
 
 
 gulp.task('deploy', function() {
-  return gulp.src('.*')
+  return gulp.src(['*', '**/'])
     .pipe(plug.ghPages());
 });
 
