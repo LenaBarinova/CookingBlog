@@ -1,0 +1,213 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/lena/Dropbox/CookingBlog',
+5 verbose install   [ 'gulp', 'gulp-ng-annotate', 'gulp-gh-pages', 'gulp-rename' ] ]
+6 info preinstall CookingBlog@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'gulp-ng-annotate@^0.3.0', null ]
+9 verbose cache add name=undefined spec="gulp-ng-annotate@^0.3.0" args=["gulp-ng-annotate@^0.3.0",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'gulp-ng-annotate@^0.3.0',
+10 verbose parsed url   path: 'gulp-ng-annotate@^0.3.0',
+10 verbose parsed url   href: 'gulp-ng-annotate@^0.3.0' }
+11 verbose already installed skipping gulp-gh-pages@^0.5.1 /Users/lena/Dropbox/CookingBlog
+12 verbose cache add [ 'gulp-rename@^1.2.2', null ]
+13 verbose cache add name=undefined spec="gulp-rename@^1.2.2" args=["gulp-rename@^1.2.2",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'gulp-rename@^1.2.2',
+14 verbose parsed url   path: 'gulp-rename@^1.2.2',
+14 verbose parsed url   href: 'gulp-rename@^1.2.2' }
+15 verbose cache add name="gulp-ng-annotate" spec="^0.3.0" args=["gulp-ng-annotate","^0.3.0"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '^0.3.0',
+16 verbose parsed url   path: '^0.3.0',
+16 verbose parsed url   href: '^0.3.0' }
+17 verbose addNamed [ 'gulp-ng-annotate', '^0.3.0' ]
+18 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+19 verbose already installed skipping gulp@^3.8.11 /Users/lena/Dropbox/CookingBlog
+20 verbose cache add name="gulp-rename" spec="^1.2.2" args=["gulp-rename","^1.2.2"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^1.2.2',
+21 verbose parsed url   path: '^1.2.2',
+21 verbose parsed url   href: '^1.2.2' }
+22 verbose addNamed [ 'gulp-rename', '^1.2.2' ]
+23 verbose addNamed [ null, '>=1.2.2-0 <2.0.0-0' ]
+24 silly lockFile 9f7be207-gulp-ng-annotate-0-3-0 gulp-ng-annotate@^0.3.0
+25 verbose lock gulp-ng-annotate@^0.3.0 /Users/lena/.npm/9f7be207-gulp-ng-annotate-0-3-0.lock
+26 silly lockFile 1035ba1c-gulp-rename-1-2-2 gulp-rename@^1.2.2
+27 verbose lock gulp-rename@^1.2.2 /Users/lena/.npm/1035ba1c-gulp-rename-1-2-2.lock
+28 silly addNameRange { name: 'gulp-ng-annotate',
+28 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+28 silly addNameRange   hasData: false }
+29 silly addNameRange { name: 'gulp-rename',
+29 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+29 silly addNameRange   hasData: false }
+30 verbose request where is /gulp-ng-annotate
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id d3a1cc2a6316d146
+33 verbose url raw /gulp-ng-annotate
+34 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-ng-annotate' ]
+35 verbose url resolved https://registry.npmjs.org/gulp-ng-annotate
+36 verbose request where is https://registry.npmjs.org/gulp-ng-annotate
+37 info trying registry request attempt 1 at 16:57:19
+38 http GET https://registry.npmjs.org/gulp-ng-annotate
+39 verbose request where is /gulp-rename
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /gulp-rename
+42 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rename' ]
+43 verbose url resolved https://registry.npmjs.org/gulp-rename
+44 verbose request where is https://registry.npmjs.org/gulp-rename
+45 info trying registry request attempt 1 at 16:57:19
+46 verbose etag "7Z6IFB7UNXEOO7VFFRGM3PT1D"
+47 http GET https://registry.npmjs.org/gulp-rename
+48 http 200 https://registry.npmjs.org/gulp-rename
+49 silly registry.get cb [ 200,
+49 silly registry.get   { date: 'Thu, 30 Apr 2015 23:57:19 GMT',
+49 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 silly registry.get     etag: '"6PN1QCSDF8MTPTH1BGQJGCMDE"',
+49 silly registry.get     'content-type': 'application/json',
+49 silly registry.get     'cache-control': 'max-age=60',
+49 silly registry.get     'content-length': '11985',
+49 silly registry.get     'accept-ranges': 'bytes',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     age: '42',
+49 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+49 silly registry.get     'x-cache': 'HIT',
+49 silly registry.get     'x-cache-hits': '30',
+49 silly registry.get     'x-timer': 'S1430438239.744744,VS0,VE0',
+49 silly registry.get     vary: 'Accept',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 silly addNameRange number 2 { name: 'gulp-rename',
+50 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+50 silly addNameRange   hasData: true }
+51 silly addNameRange versions [ 'gulp-rename',
+51 silly addNameRange   [ '0.1.0', '0.2.1', '0.2.2', '1.0.0', '1.1.0', '1.2.0', '1.2.2' ] ]
+52 verbose addNamed [ 'gulp-rename', '1.2.2' ]
+53 verbose addNamed [ '1.2.2', '1.2.2' ]
+54 silly lockFile 36a270fc-gulp-rename-1-2-2 gulp-rename@1.2.2
+55 verbose lock gulp-rename@1.2.2 /Users/lena/.npm/36a270fc-gulp-rename-1-2-2.lock
+56 silly lockFile 12c1b996-ulp-rename-gulp-rename-1-2-2-tgz https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+57 verbose lock https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz /Users/lena/.npm/12c1b996-ulp-rename-gulp-rename-1-2-2-tgz.lock
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz',
+58 verbose addRemoteTarball   '3ad4428763f05e2764dec1c67d868db275687817' ]
+59 info retry fetch attempt 1 at 16:57:19
+60 verbose fetch to= /var/folders/lf/1xh2tyhj2wg939qhg5fzmhf00000gn/T/npm-16175-3VgHh4cR/registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+61 http GET https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+62 http 200 https://registry.npmjs.org/gulp-ng-annotate
+63 silly registry.get cb [ 200,
+63 silly registry.get   { date: 'Thu, 30 Apr 2015 23:57:19 GMT',
+63 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+63 silly registry.get     etag: '"7NY0TGDM5NTGVJDA8WD3SGBD2"',
+63 silly registry.get     'content-type': 'application/json',
+63 silly registry.get     'cache-control': 'max-age=60',
+63 silly registry.get     'content-length': '24335',
+63 silly registry.get     'accept-ranges': 'bytes',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     age: '8',
+63 silly registry.get     'x-served-by': 'cache-lax1420-LAX',
+63 silly registry.get     'x-cache': 'HIT',
+63 silly registry.get     'x-cache-hits': '2',
+63 silly registry.get     'x-timer': 'S1430438239.744686,VS0,VE0',
+63 silly registry.get     vary: 'Accept',
+63 silly registry.get     'keep-alive': 'timeout=10, max=50',
+63 silly registry.get     connection: 'Keep-Alive' } ]
+64 silly addNameRange number 2 { name: 'gulp-ng-annotate',
+64 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+64 silly addNameRange   hasData: true }
+65 silly addNameRange versions [ 'gulp-ng-annotate',
+65 silly addNameRange   [ '0.1.0',
+65 silly addNameRange     '0.1.1',
+65 silly addNameRange     '0.2.0',
+65 silly addNameRange     '0.3.0',
+65 silly addNameRange     '0.3.1',
+65 silly addNameRange     '0.3.2',
+65 silly addNameRange     '0.3.3',
+65 silly addNameRange     '0.3.4',
+65 silly addNameRange     '0.3.5',
+65 silly addNameRange     '0.3.6',
+65 silly addNameRange     '0.4.0',
+65 silly addNameRange     '0.4.1',
+65 silly addNameRange     '0.4.2',
+65 silly addNameRange     '0.4.3',
+65 silly addNameRange     '0.4.4',
+65 silly addNameRange     '0.5.0',
+65 silly addNameRange     '0.5.1',
+65 silly addNameRange     '0.5.2' ] ]
+66 verbose addNamed [ 'gulp-ng-annotate', '0.3.6' ]
+67 verbose addNamed [ '0.3.6', '0.3.6' ]
+68 silly lockFile c218bc67-gulp-ng-annotate-0-3-6 gulp-ng-annotate@0.3.6
+69 verbose lock gulp-ng-annotate@0.3.6 /Users/lena/.npm/c218bc67-gulp-ng-annotate-0-3-6.lock
+70 silly lockFile 42848853-otate-gulp-ng-annotate-0-3-6-tgz https://registry.npmjs.org/gulp-ng-annotate/-/gulp-ng-annotate-0.3.6.tgz
+71 verbose lock https://registry.npmjs.org/gulp-ng-annotate/-/gulp-ng-annotate-0.3.6.tgz /Users/lena/.npm/42848853-otate-gulp-ng-annotate-0-3-6-tgz.lock
+72 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-ng-annotate/-/gulp-ng-annotate-0.3.6.tgz',
+72 verbose addRemoteTarball   '5376367fd94eea707ccc203f2c89897f6d4368cf' ]
+73 info retry fetch attempt 1 at 16:57:19
+74 verbose fetch to= /var/folders/lf/1xh2tyhj2wg939qhg5fzmhf00000gn/T/npm-16175-3VgHh4cR/registry.npmjs.org/gulp-ng-annotate/-/gulp-ng-annotate-0.3.6.tgz
+75 http GET https://registry.npmjs.org/gulp-ng-annotate/-/gulp-ng-annotate-0.3.6.tgz
+76 http 200 https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+77 silly lockFile 12c1b996-ulp-rename-gulp-rename-1-2-2-tgz https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+78 silly lockFile 12c1b996-ulp-rename-gulp-rename-1-2-2-tgz https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+79 silly lockFile 36a270fc-gulp-rename-1-2-2 gulp-rename@1.2.2
+80 silly lockFile 36a270fc-gulp-rename-1-2-2 gulp-rename@1.2.2
+81 silly lockFile 1035ba1c-gulp-rename-1-2-2 gulp-rename@^1.2.2
+82 silly lockFile 1035ba1c-gulp-rename-1-2-2 gulp-rename@^1.2.2
+83 http 200 https://registry.npmjs.org/gulp-ng-annotate/-/gulp-ng-annotate-0.3.6.tgz
+84 silly lockFile 42848853-otate-gulp-ng-annotate-0-3-6-tgz https://registry.npmjs.org/gulp-ng-annotate/-/gulp-ng-annotate-0.3.6.tgz
+85 silly lockFile 42848853-otate-gulp-ng-annotate-0-3-6-tgz https://registry.npmjs.org/gulp-ng-annotate/-/gulp-ng-annotate-0.3.6.tgz
+86 silly lockFile c218bc67-gulp-ng-annotate-0-3-6 gulp-ng-annotate@0.3.6
+87 silly lockFile c218bc67-gulp-ng-annotate-0-3-6 gulp-ng-annotate@0.3.6
+88 silly lockFile 9f7be207-gulp-ng-annotate-0-3-0 gulp-ng-annotate@^0.3.0
+89 silly lockFile 9f7be207-gulp-ng-annotate-0-3-0 gulp-ng-annotate@^0.3.0
+90 error Error: EACCES, mkdir '/Users/lena/.npm/gulp-rename/1.2.2'
+90 error  { [Error: EACCES, mkdir '/Users/lena/.npm/gulp-rename/1.2.2']
+90 error   errno: 3,
+90 error   code: 'EACCES',
+90 error   path: '/Users/lena/.npm/gulp-rename/1.2.2',
+90 error   parent: 'CookingBlog' }
+91 error Please try running this command again as root/Administrator.
+92 error System Darwin 14.3.0
+93 error command "node" "/usr/local/bin/npm" "install"
+94 error cwd /Users/lena/Dropbox/CookingBlog
+95 error node -v v0.10.36
+96 error npm -v 1.4.28
+97 error path /Users/lena/.npm/gulp-rename/1.2.2
+98 error code EACCES
+99 error errno 3
+100 error stack Error: EACCES, mkdir '/Users/lena/.npm/gulp-rename/1.2.2'
+101 verbose exit [ 3, true ]
