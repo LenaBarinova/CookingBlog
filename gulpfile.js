@@ -3,7 +3,7 @@ var plug = require("gulp-load-plugins")();
 
 gulp.task('build', function () {
   return gulp
-    .src('./index.dev.html')
+    .src('./index.html')
     .pipe(plug.rename('index.html'))
     .pipe(plug.usemin({
       app: [plug.ngAnnotate({add: true, single_quates: true}), plug.uglify(), plug.rev()],
