@@ -10,7 +10,7 @@ gulp.task('build', function () {
       theme: [plug.uglify(), plug.rev()],
       style: [plug.minifyCss(), 'concat', plug.rev()]
     }))
-    .pipe(gulp.dest('.'))
+    .pipe(gulp.dest('./build/'))
     .on('error', plug.util.log);
 });
 
