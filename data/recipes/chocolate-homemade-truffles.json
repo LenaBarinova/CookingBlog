@@ -1,0 +1,92 @@
+{
+  "recipeID": 1,
+  "title": "Chocolate Homemade Truffles",
+  "slug": "chocolate-homemade-truffles",
+  "description": "Slightly updated and enriched recipe of sweets (Adult version).",
+  "story": "Easy to make, no baking, you literally just mix everything and that’s all.",
+  "category": "Sweets",
+  "subcategory": "Other",
+  "recipeURL": "http://www.lenacooking.com/recipes/chocolate-homemade-truffles",
+  "imageURL": "images/recipes/chocolate-homemade-truffles.jpg",
+  "creationDate": "/Date(1428456424000)/",
+  "lastModified": "/Date(1428438802790)/",
+  "servings": 6,
+  "totalMinutes": 35,
+  "activeMinutes": 30,
+  "ingredients": [
+    {
+      "ingredientID": 12,
+      "displayIndex": 0,
+      "name": "condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparationNotes": "sweetened"
+        },
+    {
+      "ingredientID": 13,
+      "displayIndex": 1,
+      "name": "shortbread cookies",
+      "quantity": 360,
+      "unit": "g",
+      "preparationNotes": "(or just any cookies you like)"
+        },
+    {
+      "ingredientID": 14,
+      "displayIndex": 2,
+      "name": "nuts",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "(I take pecan)"
+        },
+    {
+      "ingredientID": 15,
+      "displayIndex": 3,
+      "name": "dark chocolate",
+      "quantity": 120,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 16,
+      "displayIndex": 4,
+      "name": "cacao powder",
+      "quantity": 50,
+      "unit": "g",
+      "preparationNotes": "unsweetened"
+        },
+    {
+      "ingredientID": 17,
+      "displayIndex": 5,
+      "name": "butter",
+      "quantity": 100,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 18,
+      "displayIndex": 6,
+      "name": "dark rum",
+      "quantity": 20,
+      "unit": "ml",
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 19,
+      "displayIndex": 7,
+      "name": "nuts, crached cookies, cacao powder",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "for decoration"
+        }
+    ],
+  "instructions": [
+    "Melt butter and chocolate.",
+    "Mix crushed cookies and nuts.",
+    "Add cacao powder to the cookies and nuts, stir well. Start adding condensed milk keep stirring.",
+    "And finally add melted butter and chocolate.",
+    "You can add some rum to the mixture at this stage if you like.",
+    "Refrigerate the mixture for 15 to 30 minutes (the mixture will become thicker and it’s a lot easier to work with it when its cold).",
+    "Make small balls. Coat them in crushed cookies or cacao powder or crushed nuts.",
+    "Keep in the fridge before serving."
+    ]
+}
