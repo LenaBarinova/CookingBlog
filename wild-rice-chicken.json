@@ -1,0 +1,66 @@
+{
+  "recipeID": 2,
+  "title": "Wild rice & Chicken",
+  "slug": "wild-rice-chicken",
+  "description": "Easy to make after the work for healthy and delicious dinner.",
+  "story": "This easy recipe could go as a side dish for fish or meat or can be just good by itself.",
+  "category": "15 min meals",
+  "subcategory": "Other",
+  "recipeURL": "http://www.lenacooking.com/recipes/wild-rice-chicken",
+  "imageURL": "images/recipes/wild-rice-chicken.jpg",
+  "creationDate": "/Date(1428456424000)/",
+  "lastModified": "/Date(1428438802790)/",
+  "servings": 3,
+  "totalMinutes": 15,
+  "activeMinutes": 15,
+  "ingredients": [
+    {
+      "ingredientID": 12,
+      "displayIndex": 0,
+      "name": "wild rice",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 13,
+      "displayIndex": 1,
+      "name": "pees",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "frozen"
+        },
+    {
+      "ingredientID": 9,
+      "displayIndex": 2,
+      "name": "onion",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 8,
+      "displayIndex": 3,
+      "name": "bell pepper",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+        },
+    {
+      "ingredientID": 1,
+      "displayIndex": 0,
+      "name": "eggs",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+        }
+    ],
+  "instructions": [
+    "Cook rice.",
+    "Souté finely chopped onion on some olive oil.",
+    "Add chopped bell peppper to onion.",
+    "Cook for several minutes.",
+    "Add egg and mix well (so that egg would become scrambled).",
+    "Add rice and pees."
+    ]
+}
