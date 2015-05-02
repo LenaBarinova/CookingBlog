@@ -34,7 +34,7 @@
           <li ng-controller="CategoriesController">
             <a href="" class="icon fa-folder-open-o"><span>Categories</span></a>
             <ul>
-              <li ng-repeat="category in categories"><a href="#/recipes?category={{category.slug}}">{{category.name}}</a>
+              <li ng-repeat="category in categories"><a href="#/recipes?category={{category.slug}}" onclick="$(this).trigger('mouseleave');">{{category.name}}</a>
               </li>
             </ul>
           </li>
