@@ -30,10 +30,13 @@ gulp.task('prep-img', function () {
   return gulp
     .src('./images/recipes/*')
     .pipe(plug.imageResize({ 
-      width : 600,
-      height : 600,
+      width : 400,
+      height : 400,
       crop : false,
       upscale : false
+    }))
+    .pipe(plug.imagemin({
+      progressive: true
     }))
     .pipe(gulp.dest('./build/images/recipes'));
 });
