@@ -38,8 +38,52 @@
       -->
         <div class="row">
           <div class="6u">
-            <p>{{recipe.description}}</p>
-            <p> {{recipe.story}}</p>
+            <span class="image featured"><img ng-src="{{recipe.imageURL}}" alt=""/></span>
+          </div>
+          <div class="6u">
+            <article class="box excerpt">
+
+              <div class="row">
+                <div class="4u">
+                  Posted on:
+                  <br />
+                  <span class="date">July 30</span>
+                </div>
+                <div class="4u" floating:>
+                  Posted by:
+                  <br />
+                  <span class="date">Jelena</span>
+                </div>
+              </div>
+              <p>{{recipe.description}} {{recipe.story}}</p>
+            </article>
+            <div class="row">
+              <div class="6u">
+                <ul class="icons">
+                  <li class="icon fa fa-clock-o">
+                    <h3>30 min</h3>
+                    <span>Cooking time</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="6u">
+                <ul class="icons">
+                  <li class="icon fa fa-clock-o" color="red">
+                    <h3>30 min</h3> Active time
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+
+            </div>
+          </div>
+
+
+        </div>
+        <div class="row">
+          <div class="6u">
             <h3>Ingredients</h3>
             <p>
               <span ng-repeat="ingredient in ingredients">
@@ -49,11 +93,6 @@
             </p>
           </div>
           <div class="6u">
-            <span class="image featured"><img ng-src="{{recipe.imageURL}}" alt=""/></span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="12u">
             <h3>Instructions</h3>
             <p>
               <span ng-repeat="instruction in instructions"><strong>{{$index + 1}}</strong>:   {{instruction}} <br /></span>
