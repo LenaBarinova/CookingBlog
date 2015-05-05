@@ -55,26 +55,27 @@
                   <span class="date">Jelena</span>
                 </div>
               </div>
+              <hr />
               <p>{{recipe.description}} {{recipe.story}}</p>
             </article>
+            <hr />
             <div class="row">
               <div class="6u">
                 <ul class="icons">
                   <li class="icon fa fa-clock-o">
-                    <h3>30 min</h3>
-                    <span>Cooking time</span>
+                    <h3>{{recipe.totalMinutes}} min</h3> <em>cooking time</em>
                   </li>
                 </ul>
               </div>
               <div class="6u">
                 <ul class="icons">
-                  <li class="icon fa fa-clock-o" color="red">
-                    <h3>30 min</h3> Active time
+                  <li class="icon fa fa-male" color="red">
+                    <h3>{{recipe.servings}} Person</h3> <em>servings</em>
                   </li>
                 </ul>
               </div>
             </div>
-
+            <hr />
             <div>
 
             </div>
