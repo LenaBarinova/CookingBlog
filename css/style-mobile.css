@@ -88,14 +88,11 @@ ul.links li {
 ul.divided {}
 
 ul.divided li {
-  margin: 2.75em 0 0 0;
-  padding: 2.75em 0 0 0;
+  margin: 1.75em 0 0 0;
+  padding: 1.75em 0 0 0;
 }
 
-ul.icons {
-  padding: 0 !important;
-  margin: 0 0 0.5em 0 !important;
-}
+ul.icons {}
 /* Box */
 
 .box {}
@@ -106,7 +103,7 @@ ul.icons {
   display: block;
   letter-spacing: 2px;
   padding: 0.25em 1em 0.25em 1em;
-  margin: 0 auto 2.5em auto;
+  margin: 0 0 1.5em 0;
   text-align: center;
 }
 /*********************************************************************************/
