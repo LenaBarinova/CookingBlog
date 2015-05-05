@@ -10,3 +10,4 @@ typings/
 *.log
 .publish/
 build/
+bower_components/
