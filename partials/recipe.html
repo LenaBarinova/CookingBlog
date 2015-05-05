@@ -9,38 +9,68 @@
         <header>
           <h2><b>{{recipe.title}}</b></h2>
         </header>
+        <div class="row">
 
+          <div class="6u">
+            <article class="box excerpt">
 
+              <div class="row">
+                <div class="6u">
+                  <div class="row">
+                    <div class="4u">
+                      <span>Posted:</span>
+                    </div>
+                    <div class="8u">
+                      <span class="date">Dec 30</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="6u">
+                  <div class="row">
+                    <div class="3u">
+                      <span>Share:</span>
+                    </div>
+                    <div class="9u">
+                      <div share-square="false" share-links="Facebook" share-title="{{recipe.title}}"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <p>{{recipe.description}}</p>
+              <p>{{recipe.story}}</p>
+            </article>
+            <hr />
+            <div class="row">
+              <div class="6u">
+                <ul class="icons">
+                  <li class="icon fa fa-clock-o">
+                    <h5>{{recipe.totalMinutes}} min</h5>
+                    <em>cooking time</em>
 
-        <!--
-        <div class="image featured" style="width:50%; float:right;">
-          <img ng-src="{{recipe.imageURL}}" alt=""/>
+                  </li>
+                </ul>
+              </div>
+              <div class="6u">
+                <ul class="icons">
+                  <li class="icon fa fa-male">
+                    <h5>{{recipe.servings}} Person</h5>
+                    <em>servings</em>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+          </div>
+
+          <div class="6u">
+            <span class="image featured"><img ng-src="{{recipe.imageURL}}" alt=""/></span>
+          </div>
         </div>
-        <div>
-          <h3>Ingredients</h3>
-          <ul ng-repeat="ingredient in ingredients">
-            <li>
-              <span>{{ingredient.quantity}} {{ingredient.unit}}</span>
-              <span ng-show="ingredient.quantity">of</span> {{ingredient.name}}
-              <span>{{ingredient.preparationNotes}}</span>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Instructions</h3>
-          <ul ng-repeat="instruction in instructions">
-            <li>
-              <span>{{instruction.StepID}}</span>: {{instruction.Action}}
-            </li>
-          </ul>
-        </div>
-      </div>
-      -->
         <div class="row">
           <div class="6u">
-            <p>{{recipe.description}}</p>
-            <p> {{recipe.story}}</p>
-            <h3>Ingredients</h3>
+            <h5>Ingredients</h5>
             <p>
               <span ng-repeat="ingredient in ingredients">
                 <strong>{{ingredient.quantity | amount}} {{ingredient.unit}}</strong> <span ng-show="ingredient.quantity"> <span ng-show="ingredient.unit">of</span> </span>{{ingredient.name}} <em>{{ingredient.preparationNotes}}</em>
@@ -49,12 +79,7 @@
             </p>
           </div>
           <div class="6u">
-            <span class="image featured"><img ng-src="{{recipe.imageURL}}" alt=""/></span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="12u">
-            <h3>Instructions</h3>
+            <h5>Instructions</h5>
             <p>
               <span ng-repeat="instruction in instructions"><strong>{{$index + 1}}</strong>:   {{instruction}} <br /></span>
             </p>
