@@ -492,12 +492,31 @@ input[type="reset"].alt:active,
 
 .box.excerpt .date {
   background: #878787;
-  color: #fff;
+  color: #e4e4e4;
   font-weight: 400;
   text-transform: uppercase;
   border-radius: 4px;
   border: 0;
   box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 2em;
+}
+
+.box.excerpt .date > a {
+  color: #e4e4e4;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 0;
+}
+
+.box.excerpt .date:hover {
+  background: #ed786a;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 0;
 }
 /*********************************************************************************/
 /* Icons                                                                         */
