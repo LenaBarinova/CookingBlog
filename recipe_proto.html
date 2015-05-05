@@ -1,0 +1,272 @@
+<html ng-app="cookingBlog" class="ng-scope global desktop"><head><meta name="viewport" content="user-scalable=yes,width=device-width,initial-scale=1"><style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{-webkit-text-size-adjust:none}</style><style type="text/css">*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}</style><meta name="viewport" content="initial-scale=1"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-animate-anchor{position:absolute;}</style>
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script data-require="jquery@2.1.3" data-semver="2.1.3" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script data-require="angular.js@*" data-semver="1.4.0-rc.1" src="https://code.angularjs.org/1.4.0-rc.1/angular.min.js"></script>
+  <script data-require="angular-route@*" data-semver="1.4.0-rc.1" src="https://code.angularjs.org/1.4.0-rc.1/angular-route.min.js"></script>
+  <script data-require="angular-resource@*" data-semver="1.4.0-rc.1" src="https://code.angularjs.org/1.4.0-rc.1/angular-resource.min.js"></script>
+  
+  <!-- build:theme js/theme.min.js -->
+  <style type="text/css">.row{border-bottom:solid 1px transparent}.row>*{float:left}.row:after,.row:before{content:"";display:block;clear:both;height:0}.row.uniform>*>:first-child{margin-top:0}.row.uniform>*>:last-child{margin-bottom:0}.\31 2u,.\31 2u\24{width:100%;clear:none;margin-left:0}.\31 1u,.\31 1u\24{width:91.6666666667%;clear:none;margin-left:0}.\31 0u,.\31 0u\24{width:83.3333333333%;clear:none;margin-left:0}.\39 u,.\39 u\24{width:75%;clear:none;margin-left:0}.\38 u,.\38 u\24{width:66.6666666667%;clear:none;margin-left:0}.\37 u,.\37 u\24{width:58.3333333333%;clear:none;margin-left:0}.\36 u,.\36 u\24{width:50%;clear:none;margin-left:0}.\35 u,.\35 u\24{width:41.6666666667%;clear:none;margin-left:0}.\34 u,.\34 u\24{width:33.3333333333%;clear:none;margin-left:0}.\33 u,.\33 u\24{width:25%;clear:none;margin-left:0}.\32 u,.\32 u\24{width:16.6666666667%;clear:none;margin-left:0}.\31 u,.\31 u\24{width:8.3333333333%;clear:none;margin-left:0}.\31 2u\24+*,.\31 1u\24+*,.\31 0u\24+*,.\39 u\24+*,.\38 u\24+*,.\37 u\24+*,.\36 u\24+*,.\35 u\24+*,.\34 u\24+*,.\33 u\24+*,.\32 u\24+*,.\31 u\24+*{clear:left;}.\-11u{margin-left:91.6666666667%}.\-10u{margin-left:83.3333333333%}.\-9u{margin-left:75%}.\-8u{margin-left:66.6666666667%}.\-7u{margin-left:58.3333333333%}.\-6u{margin-left:50%}.\-5u{margin-left:41.6666666667%}.\-4u{margin-left:33.3333333333%}.\-3u{margin-left:25%}.\-2u{margin-left:16.6666666667%}.\-1u{margin-left:8.3333333333%}</style><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/style-desktop.css"><style type="text/css">.container{margin-left:auto;margin-right:auto;width:1200px}.container.\31 25\25{width:100%;max-width:1500px;min-width:1200px}.container.\37 5\25{width:900px}.container.\35 0\25{width:600px}.container.\32 5\25{width:300px}</style><style type="text/css">.row>*{padding:50px 0 0 50px}.row{margin:-50px 0 -1px -50px}.row.uniform>*{padding:50px 0 0 50px}.row.uniform{margin:-50px 0 -1px -50px}.row.\32 00\25>*{padding:100px 0 0 100px}.row.\32 00\25{margin:-100px 0 -1px -100px}.row.uniform.\32 00\25>*{padding:100px 0 0 100px}.row.uniform.\32 00\25{margin:-100px 0 -1px -100px}.row.\31 50\25>*{padding:75px 0 0 75px}.row.\31 50\25{margin:-75px 0 -1px -75px}.row.uniform.\31 50\25>*{padding:75px 0 0 75px}.row.uniform.\31 50\25{margin:-75px 0 -1px -75px}.row.\35 0\25>*{padding:25px 0 0 25px}.row.\35 0\25{margin:-25px 0 -1px -25px}.row.uniform.\35 0\25>*{padding:25px 0 0 25px}.row.uniform.\35 0\25{margin:-25px 0 -1px -25px}.row.\32 5\25>*{padding:12.5px 0 0 12.5px}.row.\32 5\25{margin:-12.5px 0 -1px -12.5px}.row.uniform.\32 5\25>*{padding:12.5px 0 0 12.5px}.row.uniform.\32 5\25{margin:-12.5px 0 -1px -12.5px}.row.\30 \25>*{padding:0}.row.\30 \25{margin:0 0 -1px 0}</style><style type="text/css">.\31 2u\28 global\29,.\31 2u\24\28 global\29{width:100%;clear:none;margin-left:0}.\31 1u\28 global\29,.\31 1u\24\28 global\29{width:91.6666666667%;clear:none;margin-left:0}.\31 0u\28 global\29,.\31 0u\24\28 global\29{width:83.3333333333%;clear:none;margin-left:0}.\39 u\28 global\29,.\39 u\24\28 global\29{width:75%;clear:none;margin-left:0}.\38 u\28 global\29,.\38 u\24\28 global\29{width:66.6666666667%;clear:none;margin-left:0}.\37 u\28 global\29,.\37 u\24\28 global\29{width:58.3333333333%;clear:none;margin-left:0}.\36 u\28 global\29,.\36 u\24\28 global\29{width:50%;clear:none;margin-left:0}.\35 u\28 global\29,.\35 u\24\28 global\29{width:41.6666666667%;clear:none;margin-left:0}.\34 u\28 global\29,.\34 u\24\28 global\29{width:33.3333333333%;clear:none;margin-left:0}.\33 u\28 global\29,.\33 u\24\28 global\29{width:25%;clear:none;margin-left:0}.\32 u\28 global\29,.\32 u\24\28 global\29{width:16.6666666667%;clear:none;margin-left:0}.\31 u\28 global\29,.\31 u\24\28 global\29{width:8.3333333333%;clear:none;margin-left:0}.\31 2u\24\28 global\29+*,.\31 1u\24\28 global\29+*,.\31 0u\24\28 global\29+*,.\39 u\24\28 global\29+*,.\38 u\24\28 global\29+*,.\37 u\24\28 global\29+*,.\36 u\24\28 global\29+*,.\35 u\24\28 global\29+*,.\34 u\24\28 global\29+*,.\33 u\24\28 global\29+*,.\32 u\24\28 global\29+*,.\31 u\24\28 global\29+*{clear:left;}.\-11u\28 global\29{margin-left:91.6666666667%}.\-10u\28 global\29{margin-left:83.3333333333%}.\-9u\28 global\29{margin-left:75%}.\-8u\28 global\29{margin-left:66.6666666667%}.\-7u\28 global\29{margin-left:58.3333333333%}.\-6u\28 global\29{margin-left:50%}.\-5u\28 global\29{margin-left:41.6666666667%}.\-4u\28 global\29{margin-left:33.3333333333%}.\-3u\28 global\29{margin-left:25%}.\-2u\28 global\29{margin-left:16.6666666667%}.\-1u\28 global\29{margin-left:8.3333333333%}.\31 2u\28 desktop\29,.\31 2u\24\28 desktop\29{width:100%;clear:none;margin-left:0}.\31 1u\28 desktop\29,.\31 1u\24\28 desktop\29{width:91.6666666667%;clear:none;margin-left:0}.\31 0u\28 desktop\29,.\31 0u\24\28 desktop\29{width:83.3333333333%;clear:none;margin-left:0}.\39 u\28 desktop\29,.\39 u\24\28 desktop\29{width:75%;clear:none;margin-left:0}.\38 u\28 desktop\29,.\38 u\24\28 desktop\29{width:66.6666666667%;clear:none;margin-left:0}.\37 u\28 desktop\29,.\37 u\24\28 desktop\29{width:58.3333333333%;clear:none;margin-left:0}.\36 u\28 desktop\29,.\36 u\24\28 desktop\29{width:50%;clear:none;margin-left:0}.\35 u\28 desktop\29,.\35 u\24\28 desktop\29{width:41.6666666667%;clear:none;margin-left:0}.\34 u\28 desktop\29,.\34 u\24\28 desktop\29{width:33.3333333333%;clear:none;margin-left:0}.\33 u\28 desktop\29,.\33 u\24\28 desktop\29{width:25%;clear:none;margin-left:0}.\32 u\28 desktop\29,.\32 u\24\28 desktop\29{width:16.6666666667%;clear:none;margin-left:0}.\31 u\28 desktop\29,.\31 u\24\28 desktop\29{width:8.3333333333%;clear:none;margin-left:0}.\31 2u\24\28 desktop\29+*,.\31 1u\24\28 desktop\29+*,.\31 0u\24\28 desktop\29+*,.\39 u\24\28 desktop\29+*,.\38 u\24\28 desktop\29+*,.\37 u\24\28 desktop\29+*,.\36 u\24\28 desktop\29+*,.\35 u\24\28 desktop\29+*,.\34 u\24\28 desktop\29+*,.\33 u\24\28 desktop\29+*,.\32 u\24\28 desktop\29+*,.\31 u\24\28 desktop\29+*{clear:left;}.\-11u\28 desktop\29{margin-left:91.6666666667%}.\-10u\28 desktop\29{margin-left:83.3333333333%}.\-9u\28 desktop\29{margin-left:75%}.\-8u\28 desktop\29{margin-left:66.6666666667%}.\-7u\28 desktop\29{margin-left:58.3333333333%}.\-6u\28 desktop\29{margin-left:50%}.\-5u\28 desktop\29{margin-left:41.6666666667%}.\-4u\28 desktop\29{margin-left:33.3333333333%}.\-3u\28 desktop\29{margin-left:25%}.\-2u\28 desktop\29{margin-left:16.6666666667%}.\-1u\28 desktop\29{margin-left:8.3333333333%}</style><style type="text/css">.not-global,.not-desktop{display:none!important}.only-1000px,.only-mobile{display:none!important}</style><script src="js/theme/skel.min.js"></script>
+  <script src="js/theme/skel-layers.min.js"></script>
+  <script src="js/theme/jquery.dropotron.min.js"></script>
+  <script src="js/theme/init.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:app js/app.min.js -->
+  <script src="js/app.js"></script>
+  <script src="js/directives/jbFooter.js"></script>
+  <script src="js/directives/jbSidebar.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/services/recipesData.js"></script>
+  <script src="js/services/categoriesData.js"></script>
+  <script src="js/controllers/mainController.js"></script>
+  <script src="js/controllers/recipeController.js"></script>
+  <script src="js/controllers/recipesController.js"></script>
+  <script src="js/controllers/categoriesController.js"></script>
+  <!-- endbuild -->
+
+  <noscript>
+	  &lt;!-- build:style css/style.min.css --&gt;
+    &lt;link rel="stylesheet" href="css/skel.css" /&gt;
+    &lt;link rel="stylesheet" href="css/style.css" /&gt;
+    &lt;link rel="stylesheet" href="css/style-desktop.css" /&gt;
+    &lt;!-- endbuild --&gt;
+  </noscript>
+</head>
+
+<!-- Header -->
+
+<body class="homepage ng-scope" ng-controller="MainController"><div id="skel-layers-wrapper" style="position: relative; left: 0px; right: 0px; top: 0px; backface-visibility: hidden; transition: -webkit-transform 0.5s ease, opacity 0.5s ease; -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;">
+  <div id="header-wrapper">
+    <div id="header" class="container">
+      <h1 id="logo"> <a href="#/recipes">Lena's cooking notes</a></h1>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li style="white-space: nowrap;"><a class="icon fa-cutlery" href="#/recipes"><span>Recipes</span></a>
+          </li>
+          <li ng-controller="CategoriesController" class="ng-scope opener" style="-webkit-user-select: none; cursor: pointer; white-space: nowrap;">
+            <a href="" class="icon fa-folder-open-o"><span>Categories</span></a>
+            
+          <ul class="" style="-webkit-user-select: none; display: none; position: absolute;">
+              <!-- ngRepeat: category in categories --><li ng-repeat="category in categories" class="ng-scope" style="white-space: nowrap;"><a href="#/recipes?category=all" onclick="$(this).trigger('mouseleave');" class="ng-binding" style="display: block;">All</a>
+              </li><!-- end ngRepeat: category in categories --><li ng-repeat="category in categories" class="ng-scope" style="white-space: nowrap;"><a href="#/recipes?category=sweets" onclick="$(this).trigger('mouseleave');" class="ng-binding" style="display: block;">Sweets</a>
+              </li><!-- end ngRepeat: category in categories --><li ng-repeat="category in categories" class="ng-scope" style="white-space: nowrap;"><a href="#/recipes?category=to-go" onclick="$(this).trigger('mouseleave');" class="ng-binding" style="display: block;">To go</a>
+              </li><!-- end ngRepeat: category in categories --><li ng-repeat="category in categories" class="ng-scope" style="white-space: nowrap;"><a href="#/recipes?category=15-min-meals" onclick="$(this).trigger('mouseleave');" class="ng-binding" style="display: block;">15 min meals</a>
+              </li><!-- end ngRepeat: category in categories -->
+            </ul></li>
+          <li style="white-space: nowrap;"><a class="icon fa-heart-o" href="#/about"><span>About</span></a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+  <!-- Recipes -->
+  <!-- ngView:  --><div ng-view="" autoscroll="true" class="ng-scope"><div data-brackets-id="2828" id="main-wrapper" class="ng-scope">
+  <div data-brackets-id="2829" id="main" class="container">
+    <div data-brackets-id="2830" class="row">
+
+      <!-- Content -->
+      <div data-brackets-id="2831" id="content" class="9u">
+
+        <!-- Post -->
+        <header data-brackets-id="2832">
+          <h2 data-brackets-id="2833"><b data-brackets-id="2834" class="ng-binding">Chocolate Homemade Truffles</b></h2>
+        </header>
+
+
+
+        <!--
+        <div class="image featured" style="width:50%; float:right;">
+          <img ng-src="{{recipe.imageURL}}" alt=""/>
+        </div>
+        <div>
+          <h3>Ingredients</h3>
+          <ul ng-repeat="ingredient in ingredients">
+            <li>
+              <span>{{ingredient.quantity}} {{ingredient.unit}}</span>
+              <span ng-show="ingredient.quantity">of</span> {{ingredient.name}}
+              <span>{{ingredient.preparationNotes}}</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Instructions</h3>
+          <ul ng-repeat="instruction in instructions">
+            <li>
+              <span>{{instruction.StepID}}</span>: {{instruction.Action}}
+            </li>
+          </ul>
+        </div>
+      </div>
+      -->
+        <div data-brackets-id="2835" class="row">
+          <div data-brackets-id="2836" class="6u">
+            <span data-brackets-id="2837" class="image featured"><img data-brackets-id="2838" alt="" ng-src="images/recipes/chocolate-homemade-truffles.jpg" src="images/recipes/chocolate-homemade-truffles.jpg"></span>
+          </div>
+          <div data-brackets-id="2839" class="6u">
+            <article data-brackets-id="2840" class="box excerpt">
+
+              <div data-brackets-id="2841" class="row">
+                <div data-brackets-id="2842" class="6u">
+                  Posted on:
+                  <br data-brackets-id="2843">
+                  <span data-brackets-id="2844" class="date">Dec 30, 2015</span>
+                </div>
+                <div data-brackets-id="2845" class="6u" floating:="">
+                  Posted by:
+                  <br data-brackets-id="2846">
+                  <span data-brackets-id="2847" class="date">Jelena Barinova</span>
+                </div>
+              </div>
+              <hr data-brackets-id="2848">
+              <p data-brackets-id="2849" class="ng-binding">Slightly updated and enriched recipe of sweets (Adult version). Easy to make, no baking, you literally just mix everything and that’s all.  </p>
+            <p data-brackets-id="2849" class="ng-binding">Slightly updated and enriched recipe of sweets (Adult version). Easy to make, no baking, you literally just mix everything and that’s all. Definately need to add some more text in here. </p></article>
+            <hr data-brackets-id="2850">
+            <div data-brackets-id="2851" class="row">
+              <div data-brackets-id="2852" class="6u">
+                <ul data-brackets-id="2853" class="icons">
+                  <li data-brackets-id="2854" class="icon fa fa-clock-o">
+                    <h3 data-brackets-id="2855" class="ng-binding">35 min</h3> <em data-brackets-id="2892">cooking time</em>
+                  </li>
+                </ul>
+              </div>
+              <div data-brackets-id="2857" class="6u">
+                <ul data-brackets-id="2858" class="icons">
+                  <li data-brackets-id="2859" class="icon fa fa-male" color="red">
+                    <h3 data-brackets-id="2860" class="ng-binding">6 Person</h3> <em data-brackets-id="2888">servings</em>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr data-brackets-id="2861">
+            <div data-brackets-id="2862">
+
+            </div>
+          </div>
+
+
+        </div>
+        <div data-brackets-id="2863" class="row">
+          <div data-brackets-id="2864" class="6u">
+            <h3 data-brackets-id="2865">Ingredients</h3>
+            <p data-brackets-id="2866">
+              <!-- ngRepeat: ingredient in ingredients --><span data-brackets-id="2867" ng-repeat="ingredient in ingredients" class="ng-binding ng-scope">
+                <strong data-brackets-id="2868" class="ng-binding">1 can</strong> <span data-brackets-id="2869" ng-show="ingredient.quantity"> <span data-brackets-id="2870" ng-show="ingredient.unit">of</span> </span>condensed milk <em data-brackets-id="2871" class="ng-binding">sweetened</em>
+              <br data-brackets-id="2872">
+              </span><!-- end ngRepeat: ingredient in ingredients --><span data-brackets-id="2867" ng-repeat="ingredient in ingredients" class="ng-binding ng-scope">
+                <strong data-brackets-id="2868" class="ng-binding">360 g</strong> <span data-brackets-id="2869" ng-show="ingredient.quantity"> <span data-brackets-id="2870" ng-show="ingredient.unit">of</span> </span>shortbread cookies <em data-brackets-id="2871" class="ng-binding">(or just any cookies you like)</em>
+              <br data-brackets-id="2872">
+              </span><!-- end ngRepeat: ingredient in ingredients --><span data-brackets-id="2867" ng-repeat="ingredient in ingredients" class="ng-binding ng-scope">
+                <strong data-brackets-id="2868" class="ng-binding">1 handful</strong> <span data-brackets-id="2869" ng-show="ingredient.quantity"> <span data-brackets-id="2870" ng-show="ingredient.unit">of</span> </span>nuts <em data-brackets-id="2871" class="ng-binding">(I take pecan)</em>
+              <br data-brackets-id="2872">
+              </span><!-- end ngRepeat: ingredient in ingredients --><span data-brackets-id="2867" ng-repeat="ingredient in ingredients" class="ng-binding ng-scope">
+                <strong data-brackets-id="2868" class="ng-binding">120 g</strong> <span data-brackets-id="2869" ng-show="ingredient.quantity"> <span data-brackets-id="2870" ng-show="ingredient.unit">of</span> </span>dark chocolate <em data-brackets-id="2871" class="ng-binding"></em>
+              <br data-brackets-id="2872">
+              </span><!-- end ngRepeat: ingredient in ingredients --><span data-brackets-id="2867" ng-repeat="ingredient in ingredients" class="ng-binding ng-scope">
+                <strong data-brackets-id="2868" class="ng-binding">50 g</strong> <span data-brackets-id="2869" ng-show="ingredient.quantity"> <span data-brackets-id="2870" ng-show="ingredient.unit">of</span> </span>cacao powder <em data-brackets-id="2871" class="ng-binding">unsweetened</em>
+              <br data-brackets-id="2872">
+              </span><!-- end ngRepeat: ingredient in ingredients --><span data-brackets-id="2867" ng-repeat="ingredient in ingredients" class="ng-binding ng-scope">
+                <strong data-brackets-id="2868" class="ng-binding">100 g</strong> <span data-brackets-id="2869" ng-show="ingredient.quantity"> <span data-brackets-id="2870" ng-show="ingredient.unit">of</span> </span>butter <em data-brackets-id="2871" class="ng-binding"></em>
+              <br data-brackets-id="2872">
+              </span><!-- end ngRepeat: ingredient in ingredients --><span data-brackets-id="2867" ng-repeat="ingredient in ingredients" class="ng-binding ng-scope">
+                <strong data-brackets-id="2868" class="ng-binding">20 ml</strong> <span data-brackets-id="2869" ng-show="ingredient.quantity"> <span data-brackets-id="2870" ng-show="ingredient.unit">of</span> </span>dark rum <em data-brackets-id="2871" class="ng-binding"></em>
+              <br data-brackets-id="2872">
+              </span><!-- end ngRepeat: ingredient in ingredients --><span data-brackets-id="2867" ng-repeat="ingredient in ingredients" class="ng-binding ng-scope">
+                <strong data-brackets-id="2868" class="ng-binding"> </strong> <span data-brackets-id="2869" ng-show="ingredient.quantity" class="ng-hide"> <span data-brackets-id="2870" ng-show="ingredient.unit" class="ng-hide">of</span> </span>nuts, crached cookies, cacao powder <em data-brackets-id="2871" class="ng-binding">for decoration</em>
+              <br data-brackets-id="2872">
+              </span><!-- end ngRepeat: ingredient in ingredients -->
+            </p>
+          </div>
+          <div data-brackets-id="2873" class="6u">
+            <h3 data-brackets-id="2874">Instructions</h3>
+            <p data-brackets-id="2875">
+              <!-- ngRepeat: instruction in instructions --><span data-brackets-id="2876" ng-repeat="instruction in instructions" class="ng-binding ng-scope"><strong data-brackets-id="2877" class="ng-binding">1</strong>:   Melt butter and chocolate. <br data-brackets-id="2878"></span><!-- end ngRepeat: instruction in instructions --><span data-brackets-id="2876" ng-repeat="instruction in instructions" class="ng-binding ng-scope"><strong data-brackets-id="2877" class="ng-binding">2</strong>:   Mix crushed cookies and nuts. <br data-brackets-id="2878"></span><!-- end ngRepeat: instruction in instructions --><span data-brackets-id="2876" ng-repeat="instruction in instructions" class="ng-binding ng-scope"><strong data-brackets-id="2877" class="ng-binding">3</strong>:   Add cacao powder to the cookies and nuts, stir well. Start adding condensed milk keep stirring. <br data-brackets-id="2878"></span><!-- end ngRepeat: instruction in instructions --><span data-brackets-id="2876" ng-repeat="instruction in instructions" class="ng-binding ng-scope"><strong data-brackets-id="2877" class="ng-binding">4</strong>:   And finally add melted butter and chocolate. <br data-brackets-id="2878"></span><!-- end ngRepeat: instruction in instructions --><span data-brackets-id="2876" ng-repeat="instruction in instructions" class="ng-binding ng-scope"><strong data-brackets-id="2877" class="ng-binding">5</strong>:   You can add some rum to the mixture at this stage if you like. <br data-brackets-id="2878"></span><!-- end ngRepeat: instruction in instructions --><span data-brackets-id="2876" ng-repeat="instruction in instructions" class="ng-binding ng-scope"><strong data-brackets-id="2877" class="ng-binding">6</strong>:   Refrigerate the mixture for 15 to 30 minutes (the mixture will become thicker and it’s a lot easier to work with it when its cold). <br data-brackets-id="2878"></span><!-- end ngRepeat: instruction in instructions --><span data-brackets-id="2876" ng-repeat="instruction in instructions" class="ng-binding ng-scope"><strong data-brackets-id="2877" class="ng-binding">7</strong>:   Make small balls. Coat them in crushed cookies or cacao powder or crushed nuts. <br data-brackets-id="2878"></span><!-- end ngRepeat: instruction in instructions --><span data-brackets-id="2876" ng-repeat="instruction in instructions" class="ng-binding ng-scope"><strong data-brackets-id="2877" class="ng-binding">8</strong>:   Keep in the fridge before serving. <br data-brackets-id="2878"></span><!-- end ngRepeat: instruction in instructions -->
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <!-- ngIf: false -->
+
+    </div>
+  </div>
+</div></div>
+
+  <!-- Footer -->
+  <jb-footer><!-- Footer -->
+<div id="footer-wrapper">
+  <div id="footer" class="container">
+
+    <header>
+      <h2>Questions or comments? <strong>Get in touch:</strong></h2>
+    </header>
+
+    <div class="row">
+      <div class="3u">
+        <ul class="icons">
+          <li class="icon fa-envelope"><a href="mailto:fiodorova.jelena@gmail.com?Subject=Lena's cooking blog" target="_top">Write an email</a>
+          </li>
+        </ul>
+      </div>
+      <div class="3u">
+        <ul class="icons">
+          <li class="icon fa-instagram" target="_blank"><a href="http://www.instagram.com/jfiodorova" target="_blank">@jfiodorova</a>
+          </li>
+        </ul>
+      </div>
+      <div class="3u">
+        <ul class="icons">
+          <li class="icon fa-facebook-official"><a href="http://www.facebook.com/jelena.fiodorova" target="_blank">Jelena Barinova</a>
+          </li>
+        </ul>
+      </div>
+      <div class="3u">
+        <ul class="icons">
+          <li class="icon fa-pinterest-p"><a href="http://www.pinterest.com/jfiodorova/lenas-cooking-notes/" target="_blank">Lena's Cooking Notes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="copyright" class="container">
+  <ul class="links">
+    <li>&nbsp;&nbsp;© Lena's cooking blog. All rights reserved.</li>
+    <li>Design: <a href="http://html5up.net">HTML5 UP</a>
+    </li>
+  </ul>
+</div></jb-footer>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-39383708-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+</div><div id="skel-layers-hiddenWrapper" style="height: 100%;"></div><div id="skel-layers-visibleWrapper" style="position: relative;"></div><ul class="dropotron level-0" style="-webkit-user-select: none; display: none; position: absolute; z-index: 1000;">
+              <!-- ngRepeat: category in categories --><li ng-repeat="category in categories" class="ng-scope" style="white-space: nowrap;"><a href="#/recipes?category=all" onclick="$(this).trigger('mouseleave');" class="ng-binding" style="display: block;">All</a>
+              </li><!-- end ngRepeat: category in categories --><li ng-repeat="category in categories" class="ng-scope" style="white-space: nowrap;"><a href="#/recipes?category=sweets" onclick="$(this).trigger('mouseleave');" class="ng-binding" style="display: block;">Sweets</a>
+              </li><!-- end ngRepeat: category in categories --><li ng-repeat="category in categories" class="ng-scope" style="white-space: nowrap;"><a href="#/recipes?category=to-go" onclick="$(this).trigger('mouseleave');" class="ng-binding" style="display: block;">To go</a>
+              </li><!-- end ngRepeat: category in categories --><li ng-repeat="category in categories" class="ng-scope" style="white-space: nowrap;"><a href="#/recipes?category=15-min-meals" onclick="$(this).trigger('mouseleave');" class="ng-binding" style="display: block;">15 min meals</a>
+              </li><!-- end ngRepeat: category in categories -->
+            </ul></body></html>
