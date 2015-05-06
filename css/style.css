@@ -751,3 +751,21 @@ input[type="reset"].alt:active,
   border-top: solid 2px #e5e5e5;
   text-align: center;
 }
+/*********************************************************************************/
+/* Other                                                                     */
+/*********************************************************************************/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.link.fa {
+  padding-left: 2px;
+  padding-right: 7px;
+  font-size: 1.2em;
+  border-bottom: none 0px;
+}
