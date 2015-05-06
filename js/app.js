@@ -3,7 +3,7 @@
 
   'use strict';
 
-  var app = angular.module("cookingBlog", ["ngRoute", "ngResource"]);
+  var app = angular.module("cookingBlog", ["ngRoute", "ngResource", "socialLinks"]);
 
   app.config(function ($routeProvider) {
     $routeProvider

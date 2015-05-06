@@ -12,8 +12,9 @@
         <div class="row">
           <div class="6u">
             <aside>
-              <span>Posted: <b>Dec 30, 2015</b></span>
-              <span class="right">Share:
+              <span>Posted: <b>{{recipe.creationDate | date:'mediumDate'}}</b></span>
+              <span class="right" ng-if="false">Share:
+                <a class="link fa fa-facebook-original" href="https://facebook.com/sharer.php?u=http%3A%2F%2F127.0.0.1%3A49591%2F%23%2Frecipes%2Fchocolate-homemade-truffles" rel="nofollow"></a>
                 <a class="link fa fa-facebook" social-facebook custom-url="{{pageUrl}}"></a>
                 <a class="link fa fa-pinterest" social-pinterest media="http://lorempixel.com/100/100/nature/1" custom-url="{{pageUrl}}"></a>
                 <a class="link fa fa-google-plus" social-gplus custom-url="{{pageUrl}}"></a>
@@ -22,20 +23,20 @@
             <hr />
             <aside>
               <p>{{recipe.description}}</p>
-              <p>{{recipe.story}}</p>
+              <p ng-bind-html="displaySafeHtml(recipe.story)"></p>
             </aside>
             <hr />
             <aside>
               <ul class="icons left">
                 <li class="icon fa fa-clock-o">
-                  <h5>{{recipe.totalMinutes}} min</h5>
-                  <em>cooking time</em>
+                  <sup>Cooking time</sup>
+                  <h6>{{recipe.cookingTime}} minutes</h6>
                 </li>
               </ul>
               <ul class="icons right">
                 <li class="icon fa fa-male">
-                  <h5>{{recipe.servings}} Person</h5>
-                  <em>servings</em>
+                  <sup>Recipe makes</sup>
+                  <h6>{{recipe.servings}} Servings</h6>
                 </li>
               </ul>
             </aside>
