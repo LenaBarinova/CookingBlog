@@ -11,44 +11,35 @@
         </header>
         <div class="row">
           <div class="6u">
-            <div>
+            <aside>
               <span>Posted: <b>Dec 30, 2015</b></span>
-
-              <span style="float:right">Share:
-                <a class="fa fa-facebook" social-facebook custom-url="{{pageUrl}}" style="padding-left:7px;"></a>
-                <a class="fa fa-pinterest" social-pinterest media="http://lorempixel.com/100/100/nature/1" custom-url="{{pageUrl}}" style="padding-left:7px;"></a>
-                <a class="fa fa-google-plus" social-gplus custom-url="{{pageUrl}}" style="padding-left:7px;"></a>
+              <span class="right">Share:
+                <a class="link fa fa-facebook" social-facebook custom-url="{{pageUrl}}"></a>
+                <a class="link fa fa-pinterest" social-pinterest media="http://lorempixel.com/100/100/nature/1" custom-url="{{pageUrl}}"></a>
+                <a class="link fa fa-google-plus" social-gplus custom-url="{{pageUrl}}"></a>
               </span>
-            </div>
-
+            </aside>
             <hr />
-            <p>{{recipe.description}}</p>
-            <p>{{recipe.story}}</p>
-
+            <aside>
+              <p>{{recipe.description}}</p>
+              <p>{{recipe.story}}</p>
+            </aside>
             <hr />
-            <div class="row">
-              <div class="6u">
-                <ul class="icons">
-                  <li class="icon fa fa-clock-o">
-                    <h5>{{recipe.totalMinutes}} min</h5>
-                    <em>cooking time</em>
-
-                  </li>
-                </ul>
-              </div>
-              <div class="6u">
-                <ul class="icons" style="float:right">
-                  <li class="icon fa fa-male">
-                    <h5>{{recipe.servings}} Person</h5>
-                    <em>servings</em>
-
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <hr />
+            <aside>
+              <ul class="icons left">
+                <li class="icon fa fa-clock-o">
+                  <h5>{{recipe.totalMinutes}} min</h5>
+                  <em>cooking time</em>
+                </li>
+              </ul>
+              <ul class="icons right">
+                <li class="icon fa fa-male">
+                  <h5>{{recipe.servings}} Person</h5>
+                  <em>servings</em>
+                </li>
+              </ul>
+            </aside>
           </div>
-
           <div class="6u">
             <span class="image featured"><img ng-src="{{recipe.imageURL}}" alt=""/></span>
           </div>

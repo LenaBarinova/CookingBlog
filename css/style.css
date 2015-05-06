@@ -66,8 +66,7 @@ h6 a {
 a {
   color: #666;
   text-decoration: none;
-  /*border-bottom: solid 1px #ddd;*/
-  
+  border-bottom: solid 1px #ddd;
   -moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
   -o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
@@ -493,31 +492,12 @@ input[type="reset"].alt:active,
 
 .box.excerpt .date {
   background: #878787;
-  color: #e4e4e4;
+  color: #fff;
   font-weight: 400;
   text-transform: uppercase;
   border-radius: 4px;
   border: 0;
   box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
-  padding: 1em 1em 1em 1em;
-  margin-bottom: 2em;
-}
-
-.box.excerpt .date > a {
-  color: #e4e4e4;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-radius: 4px;
-  border: 0;
-}
-
-.box.excerpt .date:hover {
-  background: #ed786a;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-radius: 4px;
-  border: 0;
 }
 /*********************************************************************************/
 /* Icons                                                                         */
@@ -770,4 +750,22 @@ input[type="reset"].alt:active,
 #copyright {
   border-top: solid 2px #e5e5e5;
   text-align: center;
+}
+/*********************************************************************************/
+/* Other                                                                     */
+/*********************************************************************************/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.link.fa {
+  padding-left: 2px;
+  padding-right: 7px;
+  font-size: 1.2em;
+  border-bottom: none 0px;
 }
