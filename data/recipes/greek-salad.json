@@ -3,113 +3,70 @@
   "title": "Greek Salad",
   "slug": "greek-salad",
   "description": "Light, easy, healthy, delicious. Very good dinner option to have after a work day.",
-  "story": "Light, delicious soup, very good for healthy dinner.",
-  "category": "Salads",
-  "subcategory": "Other",
+  "story": "As in all salads recipes - you can definitely free your imagination with ingredients you put in. This is the set I like most. Lightly fried pecans - what makes this salad taste special to me.<br />I like making all the bit about the same size - quite big, almost as big as jumbo black olives.",
+  "category": "15-min-meals",
   "recipeURL": "#/recipes/greek-salad",
   "imageURL": "images/recipes/greek-salad.jpg",
-  "creationDate": "/Date(1428456424000)/",
-  "lastModified": "/Date(1428438802790)/",
-  "servings": 4,
-  "totalMinutes": 15,
-  "activeMinutes": 15,
+  "creationDate": "2015-04-25",
+  "lastModified": "2015-04-25",
+  "servings": 3,
+  "cookingTime": 15,
   "ingredients": [
     {
-      "ingredientID": 1,
-      "displayIndex": 0,
-      "name": "eggs",
-      "quantity": 2,
-      "unit": null,
-      "preparationNotes": null
-        },
-    {
-      "ingredientID": 2,
-      "displayIndex": 1,
-      "name": "wheat flour",
-      "quantity": 6,
-      "unit": "tbsp",
-      "preparationNotes": "sifted"
-        },
-    {
-      "ingredientID": 3,
-      "displayIndex": 2,
-      "name": "sugar",
-      "quantity": 1,
-      "unit": "tbsp",
-      "preparationNotes": null
-        },
-    {
-      "ingredientID": 4,
-      "displayIndex": 3,
-      "name": "salt",
-      "quantity": 1,
-      "unit": "pinch",
-      "preparationNotes": null
-        },
-    {
-      "ingredientID": 5,
-      "displayIndex": 4,
-      "name": "whole milk",
-      "quantity": 200,
-      "unit": "ml",
-      "preparationNotes": null
-        },
-    {
-      "ingredientID": 6,
-      "displayIndex": 5,
-      "name": "ham",
-      "quantity": 200,
-      "unit": "g",
-      "preparationNotes": null
-        },
-    {
-      "ingredientID": 7,
-      "displayIndex": 6,
-      "name": "cheese",
-      "quantity": 100,
-      "unit": "g",
-      "preparationNotes": "can be any of your's favorite (I prefer white cheddar)"
-        },
-    {
-      "ingredientID": 8,
-      "displayIndex": 7,
-      "name": "bell pepper",
+      "name": "iceberg lettuce",
       "quantity": 0.5,
       "unit": null,
       "preparationNotes": null
         },
     {
-      "ingredientID": 9,
-      "displayIndex": 8,
-      "name": "onion",
-      "quantity": 0.5,
+      "name": "avocado",
+      "quantity": 1,
       "unit": null,
       "preparationNotes": null
         },
     {
-      "ingredientID": 10,
-      "displayIndex": 9,
-      "name": "ketchup",
-      "quantity": 3,
-      "unit": "tbsp",
+      "name": "cucumber",
+      "quantity": 1,
+      "unit": null,
       "preparationNotes": null
         },
     {
-      "ingredientID": 11,
-      "displayIndex": 10,
-      "name": "herbs",
+      "name": "cherry tomatoes",
       "quantity": 1,
-      "unit": "pinch",
-      "preparationNotes": "(I use Italian mix)"
+      "unit": "handful",
+      "preparationNotes": null
+        },
+    {
+      "name": "feta",
+      "quantity": 200,
+      "unit": "g",
+      "preparationNotes": null
+        },
+    {
+      "name": "red onion",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": "quick pickled in a tbsp of vinegar ans tsp of sugar"
+        },
+    {
+      "name": "big black olives",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": null
+        },
+    {
+      "name": "seasoning:",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": ": salt, pepper, Italian herbs mix, olive oil, lemon juice"
         }
     ],
   "instructions": [
-    "For Crepes whisk eggs with sugar, add flour and a pinch of salt. Mix well.",
-    "Start adding milk gradually and keep whisking. Try to avoid lumps.",
-    "Set aside  for a couple of minutes.",
-    "Meanwhile sauté chopped bell pepper and onion on some oil for several minutes (approx. 5-7).",
-    "Start cooking Crepes, for the first one I use a table spoon of butter to cook on.",
-    "I do assembling in parallel to cooking Crepes: on a Crepe a table spoon of ketchup goes. Distribute evenly, add some chopped ham, grated cheese, sautéed vegetables and sprinkle with herbs. Roll.",
-    "You may reheat Crepe rolls before serving."
+    "Fry nuts in a clean dry pan for 5-7 minutes on medium heat, for nuts to set free the aroma.",
+    "Cut all vegetables around the same size.",
+    "Pickle thinely sliced red onion in some vinegar and sugar.",
+    "Mix everything for seasoning.",
+    "Assemble all together and season.",
+    "Serve with some baguette"
     ]
 }
