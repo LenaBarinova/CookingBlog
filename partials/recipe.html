@@ -10,22 +10,21 @@
           <h2><b>{{recipe.title}}</b></h2>
         </header>
         <div class="row">
-
           <div class="6u">
-            <article class="box excerpt">
-              <div class="panel" style="padding-bottom:1em;">
-                <span>Posted: <em>Dec 30, 2015</em></span>
+            <div>
+              <span>Posted: <b>Dec 30, 2015</b></span>
 
-                <span style="padding-left:2.5em;">Share:
-                <span class="date"><a class="fa fa-facebook" social-facebook custom-url="{{pageUrl}}"></a></span>
-                <span class="date"><a class="fa fa-pinterest" social-pinterest media="http://lorempixel.com/100/100/nature/1" custom-url="{{pageUrl}}"></a></span>
-                <span class="date"><a class="fa fa-google-plus" social-gplus custom-url="{{pageUrl}}"></a></span>
-                </span>
-              </div>
-              <hr />
-              <p>{{recipe.description}}</p>
-              <p>{{recipe.story}}</p>
-            </article>
+              <span style="float:right">Share:
+                <a class="fa fa-facebook" social-facebook custom-url="{{pageUrl}}" style="padding-left:7px;"></a>
+                <a class="fa fa-pinterest" social-pinterest media="http://lorempixel.com/100/100/nature/1" custom-url="{{pageUrl}}" style="padding-left:7px;"></a>
+                <a class="fa fa-google-plus" social-gplus custom-url="{{pageUrl}}" style="padding-left:7px;"></a>
+              </span>
+            </div>
+
+            <hr />
+            <p>{{recipe.description}}</p>
+            <p>{{recipe.story}}</p>
+
             <hr />
             <div class="row">
               <div class="6u">
