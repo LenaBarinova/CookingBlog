@@ -4,12 +4,11 @@
   "slug": "wild-rice-chicken",
   "description": "Easy to make after the work for healthy and delicious dinner.",
   "story": "Really fast recipe and you can use almost all the vegetables you have. You can season it with some soy sauce. And of course, you can use salmon or shrimps instead of chicken.<br />This easy recipe could go as a side dish for fish or meat or can be just good by itself.",
-  "category": "15-min-meals",
-  "subcategory": "Other",
+  "category": "after-work",
   "recipeURL": "#/recipes/wild-rice-chicken",
   "imageURL": "images/recipes/wild-rice-chicken.jpg",
-  "creationDate": "2015-05-02",
-  "lastModified": "2015-05-02",
+  "creationDate": "2015-05-01",
+  "lastModified": "2015-05-01",
   "servings": 4,
   "cookingTime": 15,
   "ingredients": [
@@ -17,7 +16,7 @@
       "name": "wild rice",
       "quantity": 0.5,
       "unit": "cup",
-      "preparationNotes": null
+      "preparationNotes": "(Or you can use regular rice, I like the nutty taste and crunch of wild rice.)"
         },
     {
       "name": "peas",
@@ -42,6 +41,12 @@
       "quantity": 1,
       "unit": null,
       "preparationNotes": null
+        },
+    {
+      "name": "dried herbs",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": "(I use Italian mix) and some salt and pepper"
         }
     ],
   "instructions": [
