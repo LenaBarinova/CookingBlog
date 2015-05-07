@@ -22,8 +22,11 @@
             </aside>
             <hr />
             <aside>
-              <p>{{recipe.description}}</p>
-              <p ng-bind-html="displaySafeHtml(recipe.story)"></p>
+              <p>
+                <span>{{recipe.description}}</span>
+                <br />
+                <span ng-bind-html="displaySafeHtml(recipe.story)"></span>
+              </p>
             </aside>
             <hr />
             <aside>
