@@ -3,7 +3,7 @@
     "recipeID": 1,
     "title": "Chocolate Homemade Truffles",
     "slug": "chocolate-homemade-truffles",
-    "description": "Slightly updated and enriched recipe of sweets (Adult version).",
+    "description": "Slightly updated and enriched recipe of sweets (Adult edition).",
     "story": "Easy to make, no baking, you literally just mix everything and that’s all. Very good with a morning coffee or as a sweet snack for big parties.<br/>Can be enriched with dried berries, such as raisins or cranberries. You also have a total freedom sizing each truffle - I like them in a mini cupcakes liners.",
     "category": "sweets",
     "recipeURL": "#/recipes/chocolate-homemade-truffles",
@@ -36,8 +36,8 @@
     "category": "to-go",
     "recipeURL": "#/recipes/ham-cheese-crepes",
     "imageURL": "images/recipes/ham-cheese-crepes.jpg",
-    "creationDate": "2015-04-30",
-    "lastModified": "2015-04-30",
+    "creationDate": "2015-05-01",
+    "lastModified": "2015-05-01",
     "servings": 3,
     "cookingTime": 25
   },
@@ -78,8 +78,8 @@
     "category": "after-work",
     "recipeURL": "#/recipes/wild-rice-chicken",
     "imageURL": "images/recipes/wild-rice-chicken.jpg",
-    "creationDate": "2015-05-01",
-    "lastModified": "2015-05-01",
+    "creationDate": "2015-05-02",
+    "lastModified": "2015-05-02",
     "servings": 4,
     "cookingTime": 15
   },
@@ -110,5 +110,19 @@
     "lastModified": "2015-04-27",
     "servings": 6,
     "cookingTime": 20
+  },
+      {
+    "recipeID": 17,
+    "title": "Mango Tart",
+    "slug": "mango-tart",
+    "description": "A drop of almond extract in a cream - that's what makes it special!",
+    "story": "I took a <a href='http://www.joyofbaking.com/SweetPastryCrust.html' target='_blank'>Sweet Pastry Crust</a> recipe from Joy Of Baking site. Everthing else was just an experiment, which came very delicious.<br /><br />I think any fruits or berries can go on top - I'm using mangos this time.",
+    "category": "sweets",
+    "recipeURL": "#/recipes/mango-tart",
+    "imageURL": "images/recipes/mango-tart.jpg",
+    "creationDate": "2015-04-30",
+    "lastModified": "2015-04-30",
+    "servings": 6,
+    "cookingTime": 30
   }
 ]
