@@ -28,17 +28,10 @@
   });
 
 
-angular.module('yourApp', [])
-  .run(['$rootScope', '$location', '$window', function($rootScope, $location, $window){
-     $rootScope
-        .$on('$stateChangeSuccess',
-            function(event){
- 
-                if (!$window.ga)
-                    return;
- 
-                $window.ga('send', 'pageview', { page: $location.path() });
-        });
-}]);
-
+  app.run(function($rootScope, $location, $routeParams, $window){
+    $rootScope.$on('$routeChangeSuccess', function() {
+     
+      $window.ga('send', 'pageview', { page: $location.url() });
+    });
+  })
 }());
