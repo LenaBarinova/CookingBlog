@@ -54,7 +54,7 @@
             <h5>Ingredients</h5>
             <p>
               <span ng-repeat="ingredient in ingredients">
-                <strong>{{ingredient.quantity | amount}} {{ingredient.unit}}</strong> <span ng-show="ingredient.quantity"> <span ng-show="ingredient.unit">of</span> </span>{{ingredient.name}} <em>{{ingredient.preparationNotes}}</em>
+                <strong>{{ingredient.quantity | amount}} {{ingredient.unit}}</strong> <span ng-show="ingredient.quantity"> <span ng-show="ingredient.unit">of</span> </span>{{ingredient.name}} {{ingredient.preparationNotes}}
               <br />
               </span>
             </p>
