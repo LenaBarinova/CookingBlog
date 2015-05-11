@@ -9,7 +9,6 @@
     "recipeURL": "#/recipes/chocolate-homemade-truffles",
     "imageURL": "images/recipes/chocolate-homemade-truffles.jpg",
     "creationDate": "2015-04-15",
-    "lastModified": "2015-04-15",
     "servings": 6,
     "cookingTime": 35
   },
@@ -22,8 +21,7 @@
     "category": "after-work",
     "recipeURL": "#/recipes/greek-salad",
     "imageURL": "images/recipes/greek-salad.jpg",
-    "creationDate": "2015-04-25",
-    "lastModified": "2015-04-25",
+    "creationDate": "2015-04-01",
     "servings": 3,
     "cookingTime": 15
   },
@@ -36,8 +34,7 @@
     "category": "to-go",
     "recipeURL": "#/recipes/ham-cheese-crepes",
     "imageURL": "images/recipes/ham-cheese-crepes.jpg",
-    "creationDate": "2015-05-01",
-    "lastModified": "2015-05-01",
+    "creationDate": "2015-05-03",
     "servings": 3,
     "cookingTime": 25
   },
@@ -50,8 +47,7 @@
     "category": "after-work",
     "recipeURL": "#/recipes/light-asparagus-soup",
     "imageURL": "images/recipes/light-asparagus-soup.jpg",
-    "creationDate": "2015-04-30",
-    "lastModified": "2015-04-30",
+    "creationDate": "2015-04-27",
     "servings": 4,
     "cookingTime": 20
   },
@@ -65,7 +61,6 @@
     "recipeURL": "#/recipes/mini-cheesecakes",
     "imageURL": "images/recipes/mini-cheesecakes.jpg",
     "creationDate": "2015-05-02",
-    "lastModified": "2015-05-02",
     "servings": 6,
     "cookingTime": 35
   },
@@ -78,8 +73,7 @@
     "category": "after-work",
     "recipeURL": "#/recipes/wild-rice-chicken",
     "imageURL": "images/recipes/wild-rice-chicken.jpg",
-    "creationDate": "2015-05-02",
-    "lastModified": "2015-05-02",
+    "creationDate": "2015-05-01",
     "servings": 4,
     "cookingTime": 15
   },
@@ -93,7 +87,6 @@
     "recipeURL": "#/recipes/pasta-bolognese",
     "imageURL": "images/recipes/pasta-bolognese.jpg",
     "creationDate": "2015-05-06",
-    "lastModified": "2015-05-06",
     "servings": 4,
     "cookingTime": 30
   },
@@ -106,8 +99,7 @@
     "category": "sweets",
     "recipeURL": "#/recipes/cookies",
     "imageURL": "images/recipes/cookies.jpg",
-    "creationDate": "2015-04-27",
-    "lastModified": "2015-04-27",
+    "creationDate": "2015-04-29",
     "servings": 6,
     "cookingTime": 20
   },
@@ -121,8 +113,20 @@
     "recipeURL": "#/recipes/mango-tart",
     "imageURL": "images/recipes/mango-tart.jpg",
     "creationDate": "2015-04-30",
-    "lastModified": "2015-04-30",
     "servings": 6,
     "cookingTime": 50
+  },
+      {
+    "recipeID": 18,
+    "title": "Ultimate Pancakes",
+    "slug": "ultimate-pancakes",
+    "description": "Best pancakes recipe so far! Takes some time to cook, but worth it.",
+    "story": "For a long time I was in search for the best pancakes recipe. In my family we prefer pancakes to be light, flufy and moist inside. So after lots of tries and fails - here it is - so far the best pancakes recipe. <br /><br />We usually have them with maple syrup and berries. I also like some sour cream on my pancakes.",
+    "category": "brunch",
+    "recipeURL": "#/recipes/ultimate-pancakes",
+    "imageURL": "images/recipes/ultimate-pancakes.jpg",
+    "creationDate": "2015-04-30",
+    "servings": 3,
+    "cookingTime": 30
   }
 ]
