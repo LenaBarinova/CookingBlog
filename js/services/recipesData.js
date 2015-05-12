@@ -3,16 +3,15 @@
   'use strict';
 
   var recipesData = function ($resource) {
+    var root = "././data/recipes/";
     return {
 
       getRecipe: function (id) {
-        return $resource("././data/recipes/" + id + ".json")
-          .get();
+        return $resource(root + id + ".json").get();
       },
 
       getRecipes: function () {
-        return $resource("././data/recipes/all_recipes.json")
-          .query();
+        return $resource(root + "all_recipes.json").query();
       }
     };
   };

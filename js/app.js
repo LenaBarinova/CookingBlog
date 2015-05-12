@@ -8,30 +8,29 @@
   app.config(function ($routeProvider) {
     $routeProvider
       .when("/recipes", {
-        templateUrl: "partials/recipes.html",
-        controller: "RecipesController"
-      })
+      templateUrl: "partials/recipes.html",
+      controller: "RecipesController"
+    })
       .when("/recipes/:id", {
-        templateUrl: "partials/recipe.html",
-        controller: "RecipeController"
-      })
+      templateUrl: "partials/recipe.html",
+      controller: "RecipeController"
+    })
       .when("/recipes?category", {
-        templateUrl: "partials/recipes.html",
-        controller: "RecipeController"
-      })
+      templateUrl: "partials/recipes.html",
+      controller: "RecipeController"
+    })
       .when("/about", {
-        templateUrl: "partials/about.html"
-      })
+      templateUrl: "partials/about.html"
+    })
       .otherwise({
-        redirectTo: "/recipes"
-      });
+      redirectTo: "/recipes"
+    });
   });
 
 
-  app.run(function($rootScope, $location, $routeParams, $window){
-    $rootScope.$on('$routeChangeSuccess', function() {
-     
+  app.run(function ($rootScope, $location, $routeParams, $window) {
+    $rootScope.$on('$routeChangeSuccess', function () {
       $window.ga('send', 'pageview', { page: $location.url() });
     });
   })
-}());
+} ());
