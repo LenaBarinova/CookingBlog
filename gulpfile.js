@@ -61,6 +61,11 @@ gulp.task('copy-styles', function() {
     .pipe(gulp.dest('./build/css/'));
 });
 
+gulp.task('copy-misc', function() {
+  return gulp.src(['./CNAME', './README.md'])
+    .pipe(gulp.dest('./build/'));
+});
+
 gulp.task('publish', function() {
   return gulp.src(['./build/**/*'])
     .pipe(plug.ghPages());
@@ -72,5 +77,5 @@ gulp.task('open', function(){
 });
 
 gulp.task('deploy', function(cb) {
-  plug.runSequence('clean', ['build', 'prep-data', 'prep-img', 'copy-img', 'copy-fonts', 'copy-partials', 'copy-styles'], 'publish', 'open', cb);
+  plug.runSequence('clean', ['build', 'prep-data', 'prep-img', 'copy-img', 'copy-fonts', 'copy-partials', 'copy-styles', 'copy-misc'], 'publish', 'open', cb);
 });
