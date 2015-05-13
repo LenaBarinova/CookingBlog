@@ -13,7 +13,7 @@
     };
 
 
-    recipesData.getRecipes().$promise.then(onRecipesComplete, onError);
+    recipesData.getRecipes().then(onRecipesComplete, onError);
 
     if ($routeParams.category !== "") {
       $scope.byCategory = ($routeParams.category == "all") ? "" : $routeParams.category;

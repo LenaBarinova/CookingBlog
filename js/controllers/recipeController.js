@@ -29,7 +29,7 @@
       $scope.error = "Could not fetch data";
     };
 
-    recipesData.getRecipe(id).$promise.then(onRecipeComplete, onError);
+    recipesData.getRecipe(id).then(onRecipeComplete, onError);
 
     $scope.displaySafeHtml = function(html){
       return $sce.trustAsHtml(html);
