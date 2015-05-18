@@ -58,7 +58,7 @@
       "name": "baking powder",
       "quantity": 0.5,
       "unit": "tsp",
-      "preparationNotes": "can be any of your's favorite (I prefer white cheddar)"
+      "preparationNotes": null
         },
     {
       "name": "butter",

@@ -73,7 +73,7 @@ gulp.task('publish', function() {
 
 gulp.task('open', function(){
   return gulp.src('./index.html')
-    .pipe(plug.open('', {app: 'google chrome', url: 'http://jelenabarinova.github.io/CookingBlog'}));
+    .pipe(plug.open('', {app: 'google chrome', url: 'http://www.lenacooking.com'}));
 });
 
 gulp.task('deploy', function(cb) {
