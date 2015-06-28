@@ -167,5 +167,18 @@
     "creationDate": "2015-05-23",
     "servings": 6,
     "cookingTime": 90
+  },
+  {
+    "recipeID": 22,
+    "title": "Thai shrimp stir-fry",
+    "slug": "thai-shrimp-stir-fry",
+    "description": "Light, but full of flavours. Can be easily customizable recipe.",
+    "story": "This is a very delicious stir-fry, it is especially good with fresh shrimps (or you can use chicken instead). I got this recipe during master class given by Ossama Charafeddine in Vilnius.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/thai-shrimp-stir-fry",
+    "imageURL": "images/recipes/thai-shrimp-stir-fry.jpg",
+    "creationDate": "2015-06-01",
+    "servings": 4,
+    "cookingTime": 30
   }
 ]
