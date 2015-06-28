@@ -20,3 +20,10 @@ Then you can start your own development web server to serve static files from a 
 
 http-server -a localhost -p 8000
 Alternatively, you can choose to configure your own webserver, such as apache or nginx. Just configure your server to serve the files under the app/ directory.
+
+
+npm install karma karma-chrome-launcher karma-jasmine
+sudo npm install karma-cli -g
+
+
+ bower install angular-mocks

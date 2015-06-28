@@ -77,7 +77,7 @@
     "servings": 4,
     "cookingTime": 15
   },
-    {
+  {
     "recipeID": 15,
     "title": "Pasta Bolognese",
     "slug": "pasta-bolognese",
@@ -90,7 +90,7 @@
     "servings": 4,
     "cookingTime": 30
   },
-    {
+  {
     "recipeID": 16,
     "title": "Cookies",
     "slug": "cookies",
@@ -103,7 +103,7 @@
     "servings": 6,
     "cookingTime": 20
   },
-      {
+  {
     "recipeID": 17,
     "title": "Mango Tart",
     "slug": "mango-tart",
@@ -116,7 +116,7 @@
     "servings": 6,
     "cookingTime": 50
   },
-      {
+  {
     "recipeID": 18,
     "title": "Ultimate Pancakes",
     "slug": "ultimate-pancakes",
@@ -128,5 +128,44 @@
     "creationDate": "2015-04-30",
     "servings": 3,
     "cookingTime": 30
+  },
+  {
+    "recipeID": 19,
+    "title": "Swedish Pancakes",
+    "slug": "swedish-pancakes",
+    "description": "So called Swedish pancakes are worth a try: fluffy, soft, light.",
+    "story": "I first tryed these in US. Very fluffy, light and absolutely deliciuos pancakes. Usually served with lingonberry jam. <br /><br.>",
+    "category": "brunch",
+    "recipeURL": "#/recipes/swedish-pancakes",
+    "imageURL": "images/recipes/swedish-pancakes.jpg",
+    "creationDate": "2015-05-30",
+    "servings": 4,
+    "cookingTime": 30
+  },
+  {
+    "recipeID": 20,
+    "title": "Eggs Benedict",
+    "slug": "eggs-benedict",
+    "description": "Ultimate brunch to start a happy Saturday or Sunday.",
+    "story": "I like to order eggs Benedict when we have brunch outside home. But actually it's quite easy to do at home as well. The egg usually doesn't look that nice as in restaurant, but the taste is the same (or even better sometimes :)).<br /><br />This is our way of starting Saturday or Sunday.",
+    "category": "brunch",
+    "recipeURL": "#/recipes/eggs-benedict",
+    "imageURL": "images/recipes/eggs-benedict.jpg",
+    "creationDate": "2015-05-28",
+    "servings": 2,
+    "cookingTime": 30
+  },
+  {
+    "recipeID": 21,
+    "title": "Veggie pie",
+    "slug": "veggie-pie",
+    "description": "If you want to impress - this is what you need to bake.",
+    "story": "This festive dish is absolutely beautiful, good when you really want to impress :). Goes well with baked lamb ribs. We’ve cooked this combination for our cosy new year’s dinner.",
+    "category": "for-party",
+    "recipeURL": "#/recipes/veggie-pie",
+    "imageURL": "images/recipes/veggie-pie.jpg",
+    "creationDate": "2015-05-23",
+    "servings": 6,
+    "cookingTime": 90
   }
 ]
