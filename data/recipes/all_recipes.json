@@ -180,5 +180,18 @@
     "creationDate": "2015-06-01",
     "servings": 4,
     "cookingTime": 30
+  },
+  {
+    "recipeID": 23,
+    "title": "Spring rolls & Peanutbutter sauce",
+    "slug": "spring-rolls-peanut-butter-sauce",
+    "description": "Light, healthy, very convinient to make for a picnic or as snack for a party.",
+    "story": "I would say it’s both: a healthy and delicious choice. Chicken may be replaced with other cooked meat (e.g. duck, turkey) or with more vegies for vegetarian option.</br></br>Mango maybe substituted with a pineapple or even peach.",
+    "category": "to-go",
+    "recipeURL": "#/recipes/spring-rolls-peanut-butter-sauce",
+    "imageURL": "images/recipes/spring-rolls-peanut-butter-sauce.jpg",
+    "creationDate": "2015-07-10",
+    "servings": 4,
+    "cookingTime": 20
   }
 ]
