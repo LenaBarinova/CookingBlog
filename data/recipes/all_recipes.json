@@ -193,5 +193,18 @@
     "creationDate": "2015-07-10",
     "servings": 4,
     "cookingTime": 20
+  },
+  {
+    "recipeID": 24,
+    "title": "Feta and watermelon salad",
+    "slug": "feta-watermelon-salad",
+    "description": "You can tell the summer is here. Fresh! Delicious! Unusual!",
+    "story": "I just love this combination of fresh watermellon, salty feta and roasted nuts. </br></br>This salad became number one for us on a hot summer day. It's just so refreshing!",
+    "category": "after-work",
+    "recipeURL": "#/recipes/feta-watermelon-salad",
+    "imageURL": "images/recipes/feta-watermelon-salad.jpg",
+    "creationDate": "2015-07-12",
+    "servings": 4,
+    "cookingTime": 10
   }
 ]
