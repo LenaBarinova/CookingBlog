@@ -206,5 +206,18 @@
     "creationDate": "2015-07-12",
     "servings": 4,
     "cookingTime": 10
+  },
+    {
+    "recipeID": 25,
+    "title": "Carrot Muffins",
+    "slug": "carrot-muffins",
+    "description": "Sweet and moist inside with a twist of bitterness from orange jam topping",
+    "story": "It's rather an autumn desert with warm flavours of cinnamon and nutmeg, but I wanted to share it here now to remember how good it was. </br></br>I think it would be good with pecan nuts and rasins added to the batter, unfortunately I didn't have enough this time.",
+    "category": "sweets",
+    "recipeURL": "#/recipes/carrot-muffins",
+    "imageURL": "images/recipes/carrot-muffins.jpg",
+    "creationDate": "2015-07-25",
+    "servings": 6,
+    "cookingTime": 30
   }
 ]
