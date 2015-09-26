@@ -219,5 +219,18 @@
     "creationDate": "2015-07-25",
     "servings": 6,
     "cookingTime": 30
+  },
+    {
+    "recipeID": 26,
+    "title": "Lasagna",
+    "slug": "lasagna",
+    "description": "This is my absolute favourite dish and it's really easy to make ",
+    "story": "This is the dish I like to make for my guests. It's so good with some red wine. I literraly can not stop eating it. </br></br>It takes some time to prepare, but the steps are all very easy. Definitely not good for those, who is on the diet :). </br></br>It gets even better next day.",
+    "category": "for-party",
+    "recipeURL": "#/recipes/lasagna",
+    "imageURL": "images/recipes/lasagna.jpg",
+    "creationDate": "2015-08-05",
+    "servings": 8,
+    "cookingTime": 90
   }
 ]
