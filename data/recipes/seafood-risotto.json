@@ -1,0 +1,85 @@
+{
+  "recipeID": 27,
+  "title": "Seafood risotto",
+  "slug": "seafood-risotto",
+  "description": "It's totally a Friday's dinner. A bit of something special yet quick and easy",
+  "story": "I’ve got inspired by Martha’s Stewart <a href='http://www.marthastewart.com/953796/asparagus-and-lemon-risotto' target='_blank'>Asparagus and Lemon Risotto</a> recipe and decided to cook a bit changed version of it.</br></br>As for the stock in this recipe, I  made it out of the skin of salmon I’m using later, added a carrot, onion, garlic and seasoned it with salt and pepper.",
+  "category": "after-work",
+  "recipeURL": "#/recipes/seafood-risotto",
+  "imageURL": "images/recipes/seafood-risotto.jpg",
+  "creationDate": "2015-10-17",
+  "servings": 4,
+  "cookingTime": 35,
+  "ingredients": [
+    {
+      "name": "white big onion",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": "finelly chopped"
+    },
+    {
+      "name": "Arborio rice",
+      "quantity": 1.5,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "white wine",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": "I take Riesling"
+    },
+    {
+      "name": "stock",
+      "quantity": 5,
+      "unit": "cups",
+      "preparationNotes": "(any stock will do, or even hot water could be used)"
+    },
+    {
+      "name": "salmon",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparationNotes": null
+    },
+    {
+      "name": "shrimps",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "(I use precooked ones)"
+    },
+    {
+      "name": "Parmigiano cheese",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "grated"
+    },
+    {
+      "name": "butter",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "chives",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": "for seasoning"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+    }
+  ],
+  "instructions": [
+    "On an olive oil cook onion until soft for 7 minutes on medium heat.",
+    "Add rice. Cook for 2-3 minutes until rice becomes transparent.",
+    "Add wine. Wait while it boils away.",
+    "Start adding your stock: 1/2 cup at a time, stir, wait until absorbed. Repeat with another 1/2 cup of stock. Continue for 20 minutes until rices becomes creamy.",
+    "With the last addition of stock put diced salmon and shrimps. Cook for another couple of minutes.",
+    "Remove from the heat, add butter and cheese (leave a pinch of cheese for seasoning).",
+    "Serve with some cheese on top and season with chopped chives.",
+    "For me it goes very well with the same wine what was added while cooking. Enjoy!"
+  ]
+}

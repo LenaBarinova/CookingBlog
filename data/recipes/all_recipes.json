@@ -207,7 +207,7 @@
     "servings": 4,
     "cookingTime": 10
   },
-    {
+  {
     "recipeID": 25,
     "title": "Carrot Muffins",
     "slug": "carrot-muffins",
@@ -220,7 +220,7 @@
     "servings": 6,
     "cookingTime": 30
   },
-    {
+  {
     "recipeID": 26,
     "title": "Lasagna",
     "slug": "lasagna",
@@ -232,5 +232,18 @@
     "creationDate": "2015-08-05",
     "servings": 8,
     "cookingTime": 90
+  },
+  {
+    "recipeID": 27,
+    "title": "Seafood risotto",
+    "slug": "seafood-risotto",
+    "description": "It's totally a Friday's dinner. A bit of something special yet quick and easy",
+    "story": "I’ve got inspired by Martha’s Stewart <a href='http://www.marthastewart.com/953796/asparagus-and-lemon-risotto' target='_blank'>Asparagus and Lemon Risotto</a> recipe and decided to cooke a bit changed version of it.</br></br>As for the stock in this recipe, I  made it out of the skin of salmon I’m using later, added a carrot, onion, garlic and seasoned it with salt and pepper.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/seafood-risotto",
+    "imageURL": "images/recipes/seafood-risotto.jpg",
+    "creationDate": "2015-10-17",
+    "servings": 4,
+    "cookingTime": 35
   }
 ]
