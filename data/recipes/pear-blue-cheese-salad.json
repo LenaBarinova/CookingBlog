@@ -1,0 +1,81 @@
+{
+    "recipeID": 28,
+    "title": "Pear and blue cheese salad",
+    "slug": "pear-blue-cheese-salad",
+    "description": "Our most favourite salad!",
+    "story": "We just love blue cheese and everything that has a blue cheese in it :). I change the salad leaves from time to time, but all other ingredients stay. </br></br>The most taste comes from blue cheese, so it should be the best you can get.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/pear-blue-cheese-salad",
+    "imageURL": "images/recipes/pear-blue-cheese-salad.jpg",
+    "creationDate": "2015-11-05",
+    "servings": 3,
+    "cookingTime": 20,
+  "ingredients": [
+    {
+      "name": "Pear",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "Blue cheese",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparationNotes": null
+    },
+    {
+      "name": "Avocado",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "Salad leaves",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "(usually I take arugula)"
+    },
+    {
+      "name": "Pecan nuts",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "Slightly roasted"
+    },
+    {
+      "name": "Parmigiano cheese",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "grated"
+    },
+    {
+      "name": "Maple syrup",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": "(or you can substitute it with honey )"
+    },
+    {
+      "name": "Dijon mustard",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "Olive oil",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+    }
+  ],
+  "instructions": [
+    "Peal and slice pear. Grill it for a couple of minutes.",
+    "Make a sauce by mixing honey, mustard, lemon juice.",
+    "Mix all ingredients, pour the sauce.",
+    "Add roasted nuts and season with some ground pepper."
+  ]
+}

@@ -245,5 +245,70 @@
     "creationDate": "2015-10-17",
     "servings": 4,
     "cookingTime": 35
+  },
+    {
+    "recipeID": 28,
+    "title": "Pear and blue cheese salad",
+    "slug": "pear-blue-cheese-salad",
+    "description": "Probably our most favourite salad! Pear and blue cheese..",
+    "story": "We just love blue cheese and everything that has a blue cheese in it :). I change the salad leaves from time to time, but all other ingredients stay. </br></br>The most taste comes from blue cheese, so it should be the best you can get.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/pear-blue-cheese-salad",
+    "imageURL": "images/recipes/pear-blue-cheese-salad.jpg",
+    "creationDate": "2015-11-05",
+    "servings": 3,
+    "cookingTime": 20
+  },
+    {
+    "recipeID": 29,
+    "title": "Savory Palm Tree Cookies",
+    "slug": "savory-palm-tree-cookies",
+    "description": "Easy to make perfect for a party! Full of mediterranean flavour.",
+    "story": "I have cooked these 'Palm tree' or Palmieres cookies for my husband's birthday party this year. They were just perfect. </br></br>Easy to make (if you take premade puff pastry), but very delicious and look good.",
+    "category": "for-party",
+    "recipeURL": "#/recipes/savory-palm-tree-cookies",
+    "imageURL": "images/recipes/savory-palm-tree-cookies.jpg",
+    "creationDate": "2015-11-29",
+    "servings": 10,
+    "cookingTime": 20
+  },
+    {
+    "recipeID": 30,
+    "title": "Beef & Cucumber Salad",
+    "slug": "beef-and-cucumber-salad",
+    "description": "This is very light, juicy and simply delicious beef salad.",
+    "story": "I take a flank steak for this and it works just fine: I cut meat in thin long slices against the grain and fry them on the hot pan. Another option I've tried - New York steak: grilled medium to well and then sliced.</br></br>This salad is really juicy and you can make it as hot as you like.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/beef-and-cucumber-salad",
+    "imageURL": "images/recipes/beef-and-cucumber-salad.jpg",
+    "creationDate": "2015-12-03",
+    "servings": 3,
+    "cookingTime": 30
+  },
+    {
+    "recipeID": 31,
+    "title": "Mini Berry and Cream Tarts",
+    "slug": "mini-berry-and-cream-tarts",
+    "description": "Beautiful, elegant and melting-in-your-mouth delicious tarts.",
+    "story": "Lately I was making a lot of these for a holiday season. In different variation: as a tart - for a dinner, as mini tarts for party, just as a casual cake. </br></br>Really easy to make, pastry can be made in advance and frozen. </br></br>The pastry is a real deal here, if you want to avoid cream - just put some peaches or plums on the crust - and I believe it'll be as good.",
+    "category": "for-party",
+    "recipeURL": "#/recipes/mini-berry-and-cream-tarts",
+    "imageURL": "images/recipes/mini-berry-and-cream-tarts.jpg",
+    "creationDate": "2015-12-28",
+    "servings": 6,
+    "cookingTime": 30
+  },
+    {
+    "recipeID": 32,
+    "title": "Burrito",
+    "slug": "burrito",
+    "description": "Number one recipe of a meal 'to-go' for a trip or a picknick.",
+    "story": "That's what I make when we travel, either by car or plane. Very comfortable to eat outside, delicious even when served cold. Very nourishing yet very moist and juicy. </br></br>A good alternative for a sandwich. </br></br>I make these when we go skiing or hiking or when we travel by plane.",
+    "category": "to-go",
+    "recipeURL": "#/recipes/burrito",
+    "imageURL": "images/recipes/burrito.jpg",
+    "creationDate": "2016-01-10",
+    "servings": 6,
+    "cookingTime": 30
   }
 ]
