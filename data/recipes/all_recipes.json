@@ -246,7 +246,7 @@
     "servings": 4,
     "cookingTime": 35
   },
-    {
+  {
     "recipeID": 28,
     "title": "Pear and blue cheese salad",
     "slug": "pear-blue-cheese-salad",
@@ -259,7 +259,7 @@
     "servings": 3,
     "cookingTime": 20
   },
-    {
+  {
     "recipeID": 29,
     "title": "Savory Palm Tree Cookies",
     "slug": "savory-palm-tree-cookies",
@@ -272,7 +272,7 @@
     "servings": 10,
     "cookingTime": 20
   },
-    {
+  {
     "recipeID": 30,
     "title": "Beef & Cucumber Salad",
     "slug": "beef-and-cucumber-salad",
@@ -285,7 +285,7 @@
     "servings": 3,
     "cookingTime": 30
   },
-    {
+  {
     "recipeID": 31,
     "title": "Mini Berry and Cream Tarts",
     "slug": "mini-berry-and-cream-tarts",
@@ -298,7 +298,7 @@
     "servings": 6,
     "cookingTime": 30
   },
-    {
+  {
     "recipeID": 32,
     "title": "Burrito",
     "slug": "burrito",
@@ -310,5 +310,18 @@
     "creationDate": "2016-01-10",
     "servings": 6,
     "cookingTime": 30
+  },
+  {
+    "recipeID": 33,
+    "title": "Chocolate Peanut butter Brownie",
+    "slug": "chocolate-brownie-w-peanutbutter",
+    "description": "Rich chocolate brownie with chocolate chips and peanutbutter swirls.",
+    "story": "A recipe for true chocolate lovers. This brownie has a really chocolatey flavor with chocolate chunks and peanutbutter. Swirls look impressive. </br></br>Sometimes I replace peanutbutter with almond butter - same deliciousness. </br></br>Very good recipe to go, just cut in smaller pieces and refrigerate before taking to a piknik.",
+    "category": "sweets",
+    "recipeURL": "#/recipes/chocolate-brownie-w-peanutbutter",
+    "imageURL": "images/recipes/chocolate-brownie-w-peanutbutter.jpg",
+    "creationDate": "2016-02-14",
+    "servings": 6,
+    "cookingTime": 40
   }
 ]

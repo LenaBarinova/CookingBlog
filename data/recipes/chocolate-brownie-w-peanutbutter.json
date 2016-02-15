@@ -1,0 +1,95 @@
+{
+  "recipeID": 33,
+  "title": "Chocolate Peanut butter Brownie",
+  "slug": "chocolate-brownie-w-peanutbutter",
+  "description": "Rich chocolate brownie with chocolate chips and peanut butter swirls.",
+  "story": "A recipe for true chocolate lovers. This brownie has a really chocolatey flavor and swirls look impressive. </br></br>Sometimes I replace peanut butter with almond butter - same deliciousness. </br></br>Very good recipe to go, just cut in smaller pieces and refrigerate before taking to a piknik.",
+  "category": "sweets",
+  "recipeURL": "#/recipes/chocolate-brownie-w-peanutbutter",
+  "imageURL": "images/recipes/chocolate-brownie-w-peanutbutter.jpg",
+  "creationDate": "2016-02-14",
+  "servings": 6,
+  "cookingTime": 40,
+  "ingredients": [
+    {
+      "name": "butter",
+      "quantity": 2,
+      "unit": "sticks",
+      "preparationNotes": "(225 g)"
+    },
+    {
+      "name": "chocolate",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparationNotes": "(225 g)"
+    },
+    {
+      "name": "chocolate chips or chunks",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparationNotes": "(110 g)"
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+    },
+    {
+      "name": "espresso",
+      "quantity": 50,
+      "unit": "ml",
+      "preparationNotes": "(Espresso is optional, can be replaced with 1 tbsp of instant coffee or skipped)"
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "eggs",
+      "quantity": 3,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "wheat flour",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "sugar",
+      "quantity": 1,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "baking powder",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "soft peanut butter",
+      "quantity": 6,
+      "unit": "tsp",
+      "preparationNotes": "(I just take it outside the fridge a couple of hours before baking)"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350F (180C).",
+    "Melt butter with 1/5 pound of chocolate, add coffee, salt and vanilla. Leave to cool for a moment.",
+    "Meanwhile whisk eggs with sugar.",
+    "Stir melted chocolate and butter into the eggs mixture.",
+    "Add flour and baking powder. Mix well.",
+    "Fold chocolate chips/chunks into the mixture.",
+    "Line pan with parchment paper and pour the batter. I use 20 x 30 cm rectangular baking pan for this set of ingredients.",
+    "Level the batter and put peanut butter on top in several spots.",
+    "Make swirls using a knife.",
+    "Bake for 30 minutes or until toothpick inserted into the center of brownie comes clean.",
+    "Cool on a wire rack.",
+    "Refrigerate for at least an hour before serving."
+  ]
+}
