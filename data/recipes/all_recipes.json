@@ -13,7 +13,7 @@
     "cookingTime": 35
   },
   {
-    "recipeID": 4,
+    "recipeID": 2,
     "title": "Greek Salad",
     "slug": "greek-salad",
     "description": "Light, easy, healthy, delicious. Very good dinner option to have after a work day.",
@@ -26,7 +26,7 @@
     "cookingTime": 15
   },
   {
-    "recipeID": 4,
+    "recipeID": 3,
     "title": "Ham & Cheese Crepes",
     "slug": "ham-cheese-crepes",
     "description": "Nothing fancy today, just simply delicious and easy to make Crepes.",
@@ -323,5 +323,44 @@
     "creationDate": "2016-02-14",
     "servings": 6,
     "cookingTime": 40
+  },
+  {
+    "recipeID": 34,
+    "title": "Tagliatelle /w Prosciutto and Peas",
+    "slug": "tagliatelle-with-prosciutto-and-peas",
+    "description": "Easy and fast recipe good as a dinner after a work day.",
+    "story": "This is a very easy recipe (so as probably almost all pasta recipes) with very delicious and rich sauce.</br></br>At first, peas seemed a bit odd to me in this combination, but after trying it - it all makes sense: peas give freshness and color. </br></br>You can make this pasta as rich as you like, if you are on a diet - use less cream and add some water from cooking pasta.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/tagliatelle-with-prosciutto-and-peas",
+    "imageURL": "images/recipes/tagliatelle-with-prosciutto-and-peas.jpg",
+    "creationDate": "2016-05-28",
+    "servings": 4,
+    "cookingTime": 20
+  },
+    {
+    "recipeID": 35,
+    "title": "Banana cake",
+    "slug": "banana-cake",
+    "description": "The most favourite cake of my husband :)",
+    "story": "This recipe is from Christina’s Tosi book Momofuku Milk Bar. This is a banana cake they serve at Momofuku, never tried it. Next time we’re in New York – it’s on our list to must visit. This cake became one of the most favorite cakes of my husband. First time I cooked it for 2015 New Years dinner and since then we are having it every (every!) Sunday. <br /><br />I think the essence of this cake – very very ripe bananas. So we have this routine of ours: every Sunday we buy bananas to make the cake next Sunday. So if I’m making cake on Sunday, then on Friday I’ll put bananas to the freezer till Sunday morning. This is of course optional, but once you defrost bananas – their consistency is the best for such cake.",
+    "category": "sweets",
+    "recipeURL": "#/recipes/banana-cake",
+    "imageURL": "images/recipes/banana-cake.jpg",
+    "creationDate": "2017-02-20",
+    "servings": 10,
+    "cookingTime": 45
+  },
+    {
+    "recipeID": 36,
+    "title": "Chicken and Strawbery Salad",
+    "slug": "chicken-and-strawbery-salad",
+    "description": "Simple, fresh summer salad",
+    "story": "Quick and simple salad, best when strawberies are in season.<br /><br />For the salad leaves I usualy take butter letuce and mix it with some baby spinach and arugula.<br /><br />Sometimes (when I have it in my fridge) I like to add some philadelfia or similar cheese to this salad. But even without cheese, it's great.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/chicken-and-strawbery-salad",
+    "imageURL": "images/recipes/chicken-and-strawbery-salad.jpg",
+    "creationDate": "2017-03-11",
+    "servings": 2,
+    "cookingTime": 15
   }
 ]

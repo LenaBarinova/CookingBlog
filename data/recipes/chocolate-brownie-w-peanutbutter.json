@@ -57,13 +57,13 @@
       "name": "wheat flour",
       "quantity": 0.5,
       "unit": "cup",
-      "preparationNotes": null
+      "preparationNotes": "(60 g)"
     },
     {
       "name": "sugar",
       "quantity": 1,
       "unit": "cup",
-      "preparationNotes": null
+      "preparationNotes": "(220 g)"
     },
     {
       "name": "baking powder",

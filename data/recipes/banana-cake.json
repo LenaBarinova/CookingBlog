@@ -1,0 +1,172 @@
+{
+  "recipeID": 35,
+  "title": "Banana cake",
+  "slug": "banana-cake",
+  "description": "The most favourite cake of my husband :)",
+  "story": "This recipe is from Christina’s Tosi book Momofuku Milk Bar. This is a banana cake they serve at Momofuku, never tried it. Next time we’re in New York – it’s on our list to must visit. This cake became one of the most favorite cakes of my husband. First time I cooked it for 2015 New Years dinner and since then we are having it every (every!) Sunday. <br /><br />I think the essence of this cake – very very ripe bananas. So we have this routine of ours: every Sunday we buy bananas to make the cake next Sunday. So if I’m making cake on Sunday, then on Friday I’ll put bananas to the freezer till Sunday morning. This is of course optional, but once you defrost bananas – their consistency is the best for such cake.",
+  "category": "sweets",
+  "recipeURL": "#/recipes/banana-cake",
+  "imageURL": "images/recipes/banana-cake.jpg",
+  "creationDate": "2017-02-20",
+  "lastModified": "2017-02-20",
+  "servings": 10,
+  "cookingTime": 45,
+  "ingredients": [
+    {
+      "name": "Ingredients for the filling:",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "bananas",
+      "quantity": 4,
+      "unit": null,
+      "preparationNotes": "(very very ripe)"
+    },
+    {
+      "name": "whole cream",
+      "quantity": 0.3,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "milk",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "cornstarch",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "salt",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "egg yolks",
+      "quantity": 3,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "gelatin",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "butter",
+      "quantity": 3,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "Ingredients for the crust:",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "flour",
+      "quantity": 0.66,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "cornstarch",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "cocoa powder",
+      "quantity": 0.6,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "butter",
+      "quantity": 6,
+      "unit": "tbsp",
+      "preparationNotes": "melted"
+    },
+    {
+      "name": "Ingredients to assemble:",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "butter",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": "melted"
+    },
+    {
+      "name": "whipping cream",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "sugar",
+      "quantity": 0.3,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "bananas",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+    }
+  ],
+  "instructions": [
+    "In a blender mix bananas, cream and milk until smooth.",
+    "Add sugar, cornstarch, salt and yolks. Mix well.",
+    "In a small bowl put gelatin and pour a couple of table spoons of milk. Leave to rest.",
+    "Banana mixture pour into the sauce pan and put over the heat.",
+    "Whisk while heating for 5-7 minutes.",
+    "Add gelatin and butter. Whisk everything well.",
+    "Pour into the bowl and refrigerate.",
+    "Preheat the oven to 300F.",
+    "Add flour, cocoa, sugar, cornstarch and salt into the bowl. Mix.",
+    "Add melted butter while whisking.",
+    "In a couple of minutes crumbs will start to form.",
+    "On a baking sheet add crumbs.",
+    "Bake for 20 min.",
+    "When done, take crumbs out of the oven, leave to cool down.",
+    "Crumbs and banana mixture must be cool.",
+    "Whip cream with sugar.",
+    "Incorporate whipped cream into the banana cream.",
+    "On the bottom of either a springform pan or tart pan put crumbs mixed with some melted butter and  2 tsp of sugar.",
+    "On crust add half of the filling.",
+    "Put chopped bananas on it.",
+    "Add another half of the filling.",
+    "Refrigerate before serving for 2-3 hours."
+  ]
+}

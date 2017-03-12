@@ -1,0 +1,67 @@
+{
+  "recipeID": 34,
+  "title": "Pasta Tagliatelle /w Prosciutto and Peas",
+  "slug": "tagliatelle-with-prosciutto-and-peas",
+  "description": "Easy and fast recipe good as a dinner after a work day.",
+  "story": "This is a very easy recipe (so as probably almost all pasta recipes) with very delicious and rich sauce.</br></br>At first, peas seemed a bit odd to me in this combination, but after trying it - it all makes sense: peas give freshness and color. </br></br>You can make this pasta as rich as you like, if you are on a diet - use less cream and add some water from cooking pasta.",
+  "category": "after-work",
+  "recipeURL": "#/recipes/tagliatelle-with-prosciutto-and-peas",
+  "imageURL": "images/recipes/tagliatelle-with-prosciutto-and-peas.jpg",
+  "creationDate": "2016-05-28",
+  "servings": 4,
+  "cookingTime": 20,
+  "ingredients": [
+    {
+      "name": "tagliatelle",
+      "quantity": 250,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "proscuitto",
+      "quantity": 100,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "onion",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": "medium size"
+    },
+    {
+      "name": "peas",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "(I use frozen peas: cover them with boiling water for a couple of minutes and then put peas into very cald water with some ice to keep bright green color)"
+    },
+    {
+      "name": "cream",
+      "quantity": 100,
+      "unit": "ml",
+      "preparationNotes": null
+    },
+    {
+      "name": "salt and pepper",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "to taste"
+    },
+    {
+      "name": "grated parmigiano",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+    }
+  ],
+  "instructions": [
+    "Cook tagliatelle as it is adviced on packaging minus 2 minutes.",
+    "Meanwhile souté finely chopped onion on some olive oil.",
+    "Add 1/3 of sliced proscuitto.",
+    "Add cream and cook for 5 minutes to reduce and thiken it a bit.",
+    "Reserve some water from cooking pasta",
+    "To get desirable sauce thikness add some cooking water to the sauce if needed",
+    "Add cooked tagliatelle, 2/3 sliced proscuitto and peas into the sauce, mix all, cook for 2 minutes",
+    "Sprinkle with grated cheese when serving."
+  ]
+}
