@@ -337,7 +337,7 @@
     "servings": 4,
     "cookingTime": 20
   },
-    {
+  {
     "recipeID": 35,
     "title": "Banana cake",
     "slug": "banana-cake",
@@ -350,7 +350,7 @@
     "servings": 10,
     "cookingTime": 45
   },
-    {
+  {
     "recipeID": 36,
     "title": "Chicken and Strawbery Salad",
     "slug": "chicken-and-strawbery-salad",
@@ -362,5 +362,33 @@
     "creationDate": "2017-03-11",
     "servings": 2,
     "cookingTime": 15
+  },
+  {
+    "recipeID": 37,
+    "title": "Buttermilk Pancakes",
+    "slug": "nuttermilk-pancakes",
+    "description": "Perfect for long weekend brunch.",
+    "story": "I have several pancakes recipes that I like, the recint one - buttermilk pancakes.<br /><br />Perfect with some sourcream and hot chocolate drink, or with fresh berries and maple syrup.",
+    "category": "brunch",
+    "recipeURL": "#/recipes/buttermilk-pancakes",
+    "imageURL": "images/recipes/buttermilk-pancakes.jpg",
+    "creationDate": "2017-03-25",
+    "lastModified": "2017-03-25",
+    "servings": 2,
+    "cookingTime": 20
+  },
+  {
+    "recipeID": 38,
+    "title": "Panna Cotta",
+    "slug": "panna-cotta",
+    "description": "Easy to make yet heavenly delicious",
+    "story": "I still can not believe how easy it is to make Panna Cotta.<br /><br />Most instructions call to heat cream and milk, I have a slightly different technique which makes Panna Cotta light and fluffy",
+    "category": "sweets",
+    "recipeURL": "#/recipes/panna-cotta",
+    "imageURL": "images/recipes/panna-cotta.jpg",
+    "creationDate": "2017-03-25",
+    "lastModified": "2017-03-25",
+    "servings": 6,
+    "cookingTime": 30
   }
 ]

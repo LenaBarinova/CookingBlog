@@ -1,0 +1,85 @@
+{
+  "recipeID": 38,
+  "title": "Panna Cotta",
+  "slug": "panna-cotta",
+  "description": "Easy to make yet heavenly delicious",
+  "story": "I still can not believe how easy it is to make Panna Cotta.<br /><br />Most instructions call to heat cream and milk, I have a slightly different technique wich makes Panna Cotta light and fluffy",
+  "category": "sweets",
+  "recipeURL": "#/recipes/panna-cotta",
+  "imageURL": "images/recipes/panna-cotta.jpg",
+  "creationDate": "2017-03-25",
+  "lastModified": "2017-03-25",
+  "servings": 6,
+  "cookingTime": 30,
+  "ingredients": [
+    {
+      "name": "whole milk",
+      "quantity": 250,
+      "unit": "ml",
+      "preparationNotes": null
+    },
+    {
+      "name": "whipping cream",
+      "quantity": 250,
+      "unit": "ml",
+      "preparationNotes": null
+    },
+    {
+      "name": "gelatine",
+      "quantity": 8,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "sugar",
+      "quantity": 40,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "vanilla bean",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "For the berries sauce:",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "fresh berries",
+      "quantity": 2,
+      "unit": "handful",
+      "preparationNotes": "I prefer raspberries and strawberries"
+    },
+    {
+      "name": "powdered sugar",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "lemon",
+      "quantity": 0.5,
+      "unit": null,
+      "preparationNotes": null
+    }
+  ],
+  "instructions": [
+    "Dissolve gelatine in 50ml of warm milk.",
+    "Add sugar to the rest of milk, whisk and start warming it up on a low heat.",
+    "Cut open vanilla bean and scrape seeds. Add vanilla seeds together with empty bean into the heating milk.",
+    "Once milk is almost boiling, add dissolved gelatine, take off the heat, mix very well.",
+    "Pour the mixture through strainer into the bowl, set aside to cool down.",
+    "Whip heavy cream until soft peaks form.",
+    "Gently incorporate whipped cream into cooled milk mixture.",
+    "Pour into small cups or ramekins. Refrigerate for at least 3-4 hours or overnight. I make 6 cups of Panna Cotta from this amount of ingredients.",
+    "To take Panna Cotta from ramekins, you may want to put ramekin into a bowl of warm water for a moment and run a knife around the edge.",
+    "For berries sauce: take 2/3 of your berries (rest 1/3 set aside for later use). Squeeze lemon juice, add powdered sugar.",
+    "On a low heat cook berries until they start boiling. Take off the heat, pure using hand blender.",
+    "Process through strainer to get rid off seeds. Add the rest of berries to the smooth jam.",
+    "Cool down before serving with Panna Cotta."
+  ]
+}

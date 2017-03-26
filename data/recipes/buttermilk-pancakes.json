@@ -1,0 +1,93 @@
+{
+  "recipeID": 37,
+  "title": "Buttermilk Pancakes",
+  "slug": "nuttermilk-pancakes",
+  "description": "Perfect for long weekend brunch.",
+  "story": "I have several pancakes recipes that I like, the recint one - buttermilk pancakes.<br /><br />Perfect with some sourcream and hot chocolate drink, or with fresh berries and maple syrup.",
+  "category": "brunch",
+  "recipeURL": "#/recipes/buttermilk-pancakes",
+  "imageURL": "images/recipes/buttermilk-pancakes.jpg",
+  "creationDate": "2017-03-25",
+  "lastModified": "2017-03-25",
+  "servings": 2,
+  "cookingTime": 20,
+  "ingredients": [
+    {
+      "name": "egg yolk",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "egg whites",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "all purpose flour",
+      "quantity": 1,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "sugar",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+    },
+    {
+      "name": "buttermilk",
+      "quantity": 1,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "baking soda",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "baking powder",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "butter",
+      "quantity": 50,
+      "unit": "g",
+      "preparationNotes": "melted"
+    },
+    {
+      "name": "canola oil",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "for frying"
+    },
+    {
+      "name": null,
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "maple syrup, berries, sour cream to serve with"
+    }
+  ],
+  "instructions": [
+    "Dissolve baking soda in some of buttemilk, leave for a moment aside.",
+    "In one bowl mix flour, baking powder, salt, sugar.",
+    "In another bowl all wet ingredients: ligthly beaten egg yolk, buttermilk, melted butter and buttermilk and soda mixture.",
+    "Make a well in the dry ingredients and pour wet ingridients into it.",
+    "Mix everything very well. Set aside for 10 or so minutes.",
+    "Meanwhile whisk egg whites till soft peaks.",
+    "Start incorporating egg whites into the batter.",
+    "On a medium heat in a pan lightly greased with canola oil start frying pancakes. You can make any sizes and shapes you like. I do 1.5 tablespoons of batter per pancake. Makes ~10 pancakes from this amount of ingredients.",
+    "Enjoy with fresh berries, maple syrup or sour cream."
+  ]
+}
