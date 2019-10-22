@@ -1,3 +1,4 @@
+var ghpages = require('gh-pages');
 var gulp = require("gulp");
 var plug = require("gulp-load-plugins")();
 
@@ -67,8 +68,8 @@ gulp.task('copy-misc', function() {
 });
 
 gulp.task('publish', function() {
-  return gulp.src(['./build/**/*'])
-    .pipe(plug.ghPages());
+  ghpages.publish('./build/**/*', function(err) {});
+  return gulp.src('./index.html');
 });
 
 gulp.task('open', function(){
