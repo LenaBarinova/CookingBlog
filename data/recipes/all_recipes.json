@@ -1,5 +1,4 @@
-[
-  {
+[{
     "recipeID": 1,
     "title": "Chocolate Homemade Truffles",
     "slug": "chocolate-homemade-truffles",
@@ -389,6 +388,45 @@
     "creationDate": "2017-03-25",
     "lastModified": "2017-03-25",
     "servings": 6,
+    "cookingTime": 30
+  },
+  {
+    "recipeID": 39,
+    "title": "Quinoa Kale Goat Cheese Salad",
+    "slug": "quinoa-kale-goat-cheese-salad",
+    "description": "Quick salad, good warm or cold",
+    "story": "Delicious and interesting salad, which you can make quite quickly. May be served warm, but is very good cold as well.</br></br>I like it with some goat cheese, but cheese may be skipped if you are not a fan.</br></br>Most of the cooking time is taken by preparing quinoa and it definitely can be done in advance.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/quinoa-kale-goat-cheese-salad",
+    "imageURL": "images/recipes/quinoa-kale-goat-cheese-salad.jpg",
+    "creationDate": "2017-07-23",
+    "servings": 6,
+    "cookingTime": 30
+  },
+  {
+    "recipeID": 40,
+    "title": "Cheesecake",
+    "slug": "cheesecake",
+    "description": "A perfect cheesecake, sweet and rich just enough",
+    "story": "After baking cheesecake for many many times, this is the recipe I like the most.<br /><br />I adjusted the richeness to my taste as well as sweetenes. Worth spending extra time on proper baking and cooling, since it makes the cheescake creamy and without cracks on top.",
+    "category": "sweets",
+    "recipeURL": "#/recipes/cheesecake",
+    "imageURL": "images/recipes/cheesecake.jpg",
+    "creationDate": "2017-08-14",
+    "servings": 8,
+    "cookingTime": 90
+  },
+  {
+    "recipeID": 40,
+    "title": "Cottage Cheese Doughnuts",
+    "slug": "cottage-cheese-doughnuts",
+    "description": "Very easy to make, yealds at least 35 small one bite doughnuts.",
+    "story": "This is a recipe from my childhood, I loved these doughnuts when I was a child. I always thought that they are rather hard to make and require a lot of time and oil :). Turns out it is not true. It took me around 30 minutes to make the doughnuts and about half a liter (or a little bit less) of canola oil - the trick is to use small saucepan.\nTip for the next time: make them smaller, aim for 40 or even more out of this amount of ingredients, they would cook faster.",
+    "category": "sweets",
+    "recipeURL": "#/cottage-cheese-doughnuts",
+    "imageURL": "images/recipes/cottage-cheese-doughnuts.jpg",
+    "creationDate": "2017-08-14",
+    "servings": 8,
     "cookingTime": 30
   }
 ]

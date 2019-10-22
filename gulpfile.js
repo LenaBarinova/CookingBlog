@@ -29,7 +29,7 @@ gulp.task('prep-data', function () {
 gulp.task('prep-img', function () {
   return gulp
     .src('./images/recipes/*')
-    .pipe(plug.imageResize({ 
+    .pipe(plug.imageResize({
       width : 400,
       height : 400,
       crop : false,
@@ -76,6 +76,18 @@ gulp.task('open', function(){
     .pipe(plug.open('', {app: 'google chrome', url: 'http://www.lenacooking.com'}));
 });
 
-gulp.task('deploy', function(cb) {
-  plug.runSequence('clean', ['build', 'prep-data', 'prep-img', 'copy-img', 'copy-fonts', 'copy-partials', 'copy-styles', 'copy-misc'], 'publish', 'open', cb);
-});
+gulp.task('deploy',
+  gulp.series(
+    'clean',
+    'build',
+    'prep-data',
+    'prep-img',
+    'copy-img',
+    'copy-fonts',
+    'copy-partials',
+    'copy-styles',
+    'copy-misc',
+    'publish',
+    'open'
+  )
+);

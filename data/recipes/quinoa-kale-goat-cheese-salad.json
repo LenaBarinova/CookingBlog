@@ -1,0 +1,89 @@
+{
+    "recipeID": 39,
+    "title": "Quinoa Kale Goat Cheese Salad",
+    "slug": "quinoa-kale-goat-cheese-salad",
+    "description": "Quick salad, good warm or cold",
+    "story": "Delicious and interesting salad, which you can make quite quickly. May be served warm, but is very good cold as well.</br></br>I like it with some goat cheese, but cheese may be skipped if you are not a fan.</br></br>Most of the cooking time is taken by preparing quinoa and it definitely can be done in advance.",
+    "category": "after-work",
+    "recipeURL": "#/recipes/quinoa-kale-goat-cheese-salad",
+    "imageURL": "images/recipes/quinoa-kale-goat-cheese-salad.jpg",
+    "creationDate": "2017-07-23",
+    "servings": 6,
+    "cookingTime": 30,
+  "ingredients": [
+    {
+      "name": "Quinoa",
+      "quantity": 1,
+      "unit": "cup",
+      "preparationNotes": "I prefer regular yellow one for this salad"
+    },    {
+      "name": "Kale",
+      "quantity": 1,
+      "unit": "bunch",
+      "preparationNotes": null
+    },
+    {
+      "name": "Avocado",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "Dried cherries",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "may be substituted with dried cranberries"
+    },
+    {
+      "name": "Pine nuts",
+      "quantity": 2,
+      "unit": "handful",
+      "preparationNotes": "roasted"
+    },
+    {
+      "name": "Goat cheese crumbles",
+      "quantity": 200,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "of 1 lemon"
+    },
+    {
+      "name": "Olive oil",
+      "quantity": 6,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "Dijon mustard",
+      "quantity": 2,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "Maple syrup",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "Salt & ground pepper",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+    }
+  ],
+  "instructions": [
+    "Cook quinoa as it says on a packaging. I usually boil 2 cups of water (in a heavy pot), add 1 cup of quinoa. Cook for 15 min. Season with some salt and either a dash of olive oil or some butter. Take off the stove and leave in a pot for another 15 min covered",
+    "Meanwhile, wash and dry kale. Remove hard stems, and shop quite finely. Transfer to a bowl, add a pinch of salt and squeeze kale using your hands - it will make it a little bit softer.",
+    "Dice your avocados, add to the kale.",
+    "Add dried cherries and roasted pine nuts.",
+    "Add warm quinoa.",
+    "For the seasoning: mix a juice of one lemon, olive oil, mustard and maple syrup, ground pepper and a pinch of salt. Mix well. Season the salad.",
+    "I usually serve goat cheese on a side."
+  ]
+}

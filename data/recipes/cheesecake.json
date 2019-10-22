@@ -1,0 +1,100 @@
+{
+  "recipeID": 40,
+  "title": "Cheesecake",
+  "slug": "cheesecake",
+  "description": "A perfect cheesecake, sweet and rich just enough.",
+  "story": "After baking cheesecake for many many times, this is the recipe I like the most.<br /><br />I adjusted the richeness to my taste as well as sweetenes. Worth spending extra time on proper baking and cooling, since it makes the cheescake creamy and without cracks on top.",
+  "category": "sweets",
+  "recipeURL": "#/recipes/cheesecake",
+  "imageURL": "images/recipes/cheesecake.jpg",
+  "creationDate": "2017-08-14",
+  "lastModified": "2017-08-14",
+  "servings": 8,
+  "cookingTime": 90,
+  "ingredients": [{
+      "name": "Graham crackers",
+      "quantity": 180,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "nuts",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": "(I take pecan)"
+    }, {
+      "name": "chocolate chips",
+      "quantity": 1,
+      "unit": "handful",
+      "preparationNotes": null
+    },
+    {
+      "name": "butter",
+      "quantity": 100,
+      "unit": "g",
+      "preparationNotes": "melted"
+    },
+    {
+      "name": "cream cheese",
+      "quantity": 1,
+      "unit": "kg",
+      "preparationNotes": "(I take equal parts of Mascarpone, Ricotta and Cream cheese"
+    },
+    {
+      "name": "sugar",
+      "quantity": 200,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "milk",
+      "quantity": 180,
+      "unit": "ml",
+      "preparationNotes": null
+    },
+    {
+      "name": "eggs",
+      "quantity": 4,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "egg yolks",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "sour cream",
+      "quantity": 200,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "corn or potatoe starch",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparationNotes": null
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 175 C (350 F).",
+    "Prepare the springform pan (18\"): I lay springform pan with parchment paper and wrap in aluminum foil from the outside (so that I could put it in a water bath)",
+    "Crush cookies and nuts and chocolate and combine everything with melted butter. Put on the bottom of the springform pan.",
+    "Bake the crust for 10 mins.",
+    "Once crust is baked, take it out. Lower oven temperature to 165 C (325 F).",
+    "Mix cream cheese with sugar and milk, add eggs one at a time, add sour cream, vanilla and corn starch. Mix everything. No whipping.",
+    "Pour cream into springform pan.",
+    "Put the springform onto the baking sheet (take the one that is deeper). Fill baking sheet with hot boiling water.",
+    "Bake for 1 hour. The cake will be very soft (almost runny) in the middle.",
+    "Then turn off the oven and let the cheesecake to stay in the oven for another hour. After that, leave the oven door ajar and let cool completely.",
+    "Chill in a fridge overnight.",
+    "I like to serve it with a raspberry jam or shredded chocolate."
+  ]
+}

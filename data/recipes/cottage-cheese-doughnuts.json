@@ -1,0 +1,73 @@
+{
+  "recipeID": 41,
+  "title": "Cottage Cheese Doughnuts",
+  "slug": "cottage-cheese-doughnuts",
+  "description": "Very easy to make, yealds at least 35 small one bite doughnuts.",
+  "story": "This is a recipe from my childhood, I loved these doughnuts when I was a child. I always thought that they are rather hard to make and require a lot of time and oil :). Turns out it is not true. It took me around 30 minutes to make the doughnuts and about half a liter (or a little bit less) of canola oil - the trick is to use small saucepan.\nTip for the next time: make them smaller, aim for 40 or even more out of this amount of ingredients, they would cook faster.",
+  "category": "sweets",
+  "recipeURL": "#/recipes/cottage-cheese-doughnuts",
+  "imageURL": "images/recipes/cottage-cheese-doughnuts.jpg",
+  "creationDate": "2019-10-02",
+  "lastModified": "2019-10-02",
+  "servings": 8,
+  "cookingTime": 30,
+  "ingredients": [
+    {
+      "name": "cottage cheese",
+      "quantity": 400,
+      "unit": "g",
+      "preparationNotes": "(can use Ricotta cheese, but then consider adding a bit ore flour and skip the blending step)"
+        },
+    {
+      "name": "eggs",
+      "quantity": 2,
+      "unit": null,
+      "preparationNotes": "frozen"
+        },
+    {
+      "name": "sugar",
+      "quantity": 4,
+      "unit": "tbsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "vanilla extract",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+        },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+    },
+    {
+      "name": "all purpose flour",
+      "quantity": 160,
+      "unit": "g",
+      "preparationNotes": "(and a handfull more for kneading)"
+        },
+      {
+        "name": "canola oil",
+        "quantity": 500,
+        "unit": "ml",
+        "preparationNotes": "(or any other neatral flavor oil)"
+          },
+      {
+        "name": "powdered sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "preparationNotes": null
+          }
+    ],
+  "instructions": [
+    "Add sugar, salt, vanilla, and eggs to cottage cheese and blend all together - should yeald a smooth mixed well paste.",
+    "Start adding flour, some at a time. How much flour you need will depend on how dry is the cottage cheese, I needed about 160g. I wanted to have as less as possible flour, just enuoght to handle the dough.",
+    "Work the dough, so that it would come together into a nice ball.",
+    "Divide into 35 (or more) equal pieces, make small balls.",
+    "On a stovetop pre-heat canola oil in a small saucepan to 350F (180C).",
+    "Cook in small batches, 3-6 minutes, until nice brown.",
+    "Rest on a paper towel, sprinkle with powdered sugar."
+    ]
+}
