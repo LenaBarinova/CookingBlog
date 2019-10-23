@@ -1,6 +1,6 @@
 # CookingBlog
 Lena's Cooking Blog
-http://jelenabarinova.github.io/CookingBlog.
+http://lenabarinova.github.io/CookingBlog.
 
 
 * http://fortawesome.github.io/Font-Awesome/
