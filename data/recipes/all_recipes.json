@@ -415,5 +415,18 @@
     "creationDate": "2017-08-14",
     "servings": 8,
     "cookingTime": 90
+  },
+ {
+    "recipeID": 41,
+    "title": "Cottage Cheese Doughnuts",
+    "slug": "cottage-cheese-doughnuts",
+    "description": "Very easy to make, yealds 36 one bite doughnuts",
+    "story": "This is a recipe from my childhood, I loved these doughnuts when I was a child. I always thought that they are rather hard to make and require a lot of time and oil :). Turns out it is not true. It took me around 30 minutes to make the doughnuts and about half a liter (or a little bit less) of canola oil - the trick is to use small saucepan.\nTip for the next time: make them smaller, aim for 40 or even more out of this amount of ingredients, they would cook faster.",
+    "category": "sweets",
+    "recipeURL": "#/recipes/cottage-cheese-doughnuts",
+    "imageURL": "images/recipes/cottage-cheese-doughnuts.jpg",
+    "creationDate": "2019-10-22",
+    "servings": 8,
+    "cookingTime": 30
   }
 ]
