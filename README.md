@@ -1,6 +1,6 @@
 # CookingBlog
 Lena's Cooking Blog
-http://lenabarinova.github.io/CookingBlog.
+http://jelenabarinova.github.io/CookingBlog.
 
 
 * http://fortawesome.github.io/Font-Awesome/
@@ -27,3 +27,11 @@ sudo npm install karma-cli -g
 
 
  bower install angular-mocks
+
+check if xcode is installed
+install homebrew
+ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+install image libs
+brew install imagemagick
+brew install graphicsmagick
