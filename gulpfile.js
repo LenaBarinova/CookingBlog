@@ -68,8 +68,9 @@ gulp.task('copy-misc', function() {
 });
 
 gulp.task('publish', function() {
-  ghpages.publish('./build/**/*', function(err) {});
-  return gulp.src('./index.html');
+  //ghpages.publish('dist', function(err) {});
+  return gulp.src(['./build/**/*'])
+    .pipe(plug.ghPages());
 });
 
 gulp.task('open', function(){

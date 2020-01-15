@@ -1,0 +1,55 @@
+{
+  "recipeID": 43,
+    "title": "Potatoe Pancakes",
+    "slug": "potatoe-pancakes",
+    "description": "Traditional Lithuanian dish",
+    "story": "Easy to make, very good when served with cottage cheese and smoked salmon or with a dollop of sour cream",
+    "category": "after-work",
+    "recipeURL": "#/recipes/potatoe-pancakes",
+    "imageURL": "images/recipes/potatoe-pancakes.jpg",
+    "creationDate": "2019-12-17",
+    "lastModified": "2019-12-17",
+    "servings": 4,
+    "cookingTime": 20,
+    "ingredients": [
+    {
+      "name": "potatoes",
+      "quantity": 6,
+      "unit": null,
+      "preparationNotes": "I usualy use mid size Russet potatoes"
+    },
+    {
+      "name": "egg",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "milk",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "salt and pepper",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "canola oil",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "for frying"
+    }
+  ],
+  "instructions": [
+    "Peel and grate potatoes (you can use either finest side of hand grater or fine grater disk on a food processor).",
+    "Drain some liquid, do not overdo it, the batter should stay very moist.",
+    "Add lighly beaten egg and milk.",
+    "Season with salt, mix well.",
+    "Fry on some canola oil.",
+    "Serve with sour cream or ketchup.",
+    "For more fancier version - serve with cottage cheese and smoked salmon"
+  ]
+}

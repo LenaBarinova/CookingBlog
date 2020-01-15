@@ -1,0 +1,90 @@
+{
+  "recipeID": 44,
+  "title": "Belgian Waffles",
+  "slug": "belgian-waffles",
+  "description": "Very good for breakfast",
+  "story": "Good for breakfast, but also very good as a sandwitch base. I use leftover waffles, spread some mayo on them, add ham, avocado, cheese and you get perfect open-faced sandwitch.<br /><br /> Usually I make batter night before.",
+  "category": "breakfast",
+  "recipeURL": "#/recipes/belgian-waffles",
+  "imageURL": "images/recipes/belgian-waffles.jpg",
+  "creationDate": "2019-12-18",
+  "lastModified": "2019-12-18",
+  "servings": 2,
+  "cookingTime": 90,
+  "ingredients": [
+    {
+      "name": "egg",
+      "quantity": 1,
+      "unit": null,
+      "preparationNotes": null
+    },
+    {
+      "name": "kefir",
+      "quantity": 1,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "all purpose flour",
+      "quantity": 1,
+      "unit": "cup",
+      "preparationNotes": null
+    },
+    {
+      "name": "sugar",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparationNotes": null
+    },
+    {
+      "name": "baking soda",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "baking powder",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparationNotes": null
+    },
+    {
+      "name": "butter",
+      "quantity": 50,
+      "unit": "g",
+      "preparationNotes": "melted"
+    },
+    {
+      "name": "almond flour",
+      "quantity": 30,
+      "unit": "g",
+      "preparationNotes": null
+    },
+    {
+      "name": "canola oil spray",
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "for cooking"
+    },
+    {
+      "name": null,
+      "quantity": null,
+      "unit": null,
+      "preparationNotes": "maple syrup, berries, sour cream to serve with"
+    }
+  ],
+  "instructions": [
+    "Whisk eggs with sugar. Add kefir.",
+    "Mix in flour, baking powder, salt, sugar.",
+    "Add melted and cooled butter.",
+    "Mix everything very well. Set aside atleast for 30 minutes or overnight.",
+    "Cook in waffle maker.",
+    "Enjoy with fresh berries, maple syrup or sour cream."
+  ]
+}
